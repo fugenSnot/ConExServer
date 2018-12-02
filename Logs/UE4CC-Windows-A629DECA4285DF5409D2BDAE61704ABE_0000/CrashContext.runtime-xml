@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-A629DECA4285DF5409D2BDAE61704ABE_0000</CrashGUID>
+<ProcessId>7032</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-ConanSandbox</GameName>
+<ExecutableName>ConanSandboxServer-Win64-Test</ExecutableName>
+<BuildConfiguration>Test</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>WindowsServer</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Server</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.15.3-112176+ue415-dw-Stable-osl</EngineVersion>
+<CommandLine>-log -MULTIHOME=10.0.0.x -nosteam</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<BuildVersion>ue415-dw-Stable-osl-CL-112176</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/ConanSandbox/Binaries/Win64/</BaseDir>
+<RootDir>I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/</RootDir>
+<MachineId>3FAE565B406BE649496C579BAA2E294C</MachineId>
+<LoginId>3fae565b406be649496c579baa2e294c</LoginId>
+<EpicAccountId>e5cd74095c434a15b80c975670305044</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Fatal error: [File:C:\B\branch_ConanSandbox_Stable\code\UE4\Source\ConanSandbox\ConanGameMode.cpp] [Line: 439] &#10;Backup restore failed, shutting down.&#10;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon (TM) R9 380 Series</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17093509120</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>10930327552</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8795004297216</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>781328384</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>798089216</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>781012992</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>802332672</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<FuncomExtraData>{&quot;Version&quot;:1,&quot;TickInfoSched&quot;:&quot;SCHEDULECOOLDOWN&quot;,&quot;Configuration&quot;:&quot;ConanSandbox.Client.VS2015.Live.Win64&quot;,&quot;Branch&quot;:&quot;ConanSandbox_Stable&quot;,&quot;ProjectCode&quot;:&quot;CSAND&quot;,&quot;Platform&quot;:&quot;x64&quot;,&quot;Revision&quot;:112258,&quot;Snapshot&quot;:20023,&quot;QFE&quot;:0,&quot;FGenericPlatformMemory::bIsOOM&quot;:false}</FuncomExtraData>
+</PlatformProperties>
+</FGenericCrashContext>

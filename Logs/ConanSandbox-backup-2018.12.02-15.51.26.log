@@ -1,0 +1,954 @@
+﻿Log file open, 12/02/18 15:28:27
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogTemp: Using NVIDIAGfeSDKPlugin version 1.0.0
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-112176.0
+LogInit: Engine Version: 4.15.3-112176+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-112176+ue415-dw-Stable-osl
+LogInit: Net CL: 112176
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Nov 12 2018 21:41:36
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: 
+LogInit: Base directory: I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.12.02-21.28.30:776][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2018.12.02-21.28.30:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2018.12.02-21.28.30:804][  0]LogInit: Computer: FUGEN7-2
+[2018.12.02-21.28.30:804][  0]LogInit: User: fugensnot
+[2018.12.02-21.28.30:804][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.12.02-21.28.30:804][  0]LogInit: High frequency timer resolution =3.117412 MHz
+[2018.12.02-21.28.30:804][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.02-21.28.30:804][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2018.12.02-21.28.30:804][  0]LogMemory: Process Physical Memory: 288.70 MB used, 288.70 MB peak
+[2018.12.02-21.28.30:804][  0]LogMemory: Process Virtual Memory: 319.10 MB used, 319.10 MB peak
+[2018.12.02-21.28.30:804][  0]LogMemory: Physical Memory: 4932.85 MB used,  11368.79 MB free, 16301.64 MB total
+[2018.12.02-21.28.30:804][  0]LogMemory: Virtual Memory: 564.38 MB used,  11368.79 MB free, 8388608.00 MB total
+[2018.12.02-21.28.30:980][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.12.02-21.28.31:487][  0]LogAssetRegistry: FAssetRegistry took 0.3091 seconds to start up
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld revision: 112258
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld snapshot: 20023
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: Platform: WindowsServer
+[2018.12.02-21.28.31:593][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.12.02-21.28.31:607][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.004775 seconds
+[2018.12.02-21.28.31:608][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2018.12.02-21.28.31:609][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.12.02-21.28.31:645][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.12.02-21.28.31:678][  0]LogNetVersion: GetLocalNetworkVersion: CL: 112176, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2005551844
+[2018.12.02-21.28.31:678][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 919621175
+[2018.12.02-21.28.31:691][  0]LogUObjectArray: 43478 objects as part of root set at end of initial load.
+[2018.12.02-21.28.31:691][  0]LogUObjectAllocator:Warning: 8435792 Exceeds size of permanent object pool 8388608, please tune SizeOfPermanentObjectPool.
+[2018.12.02-21.28.31:691][  0]LogUObjectArray: CloseDisregardForGC: 43478/0 objects in disregard for GC pool
+[2018.12.02-21.28.33:637][  0]UserSettings:Display: User's IP Country Code is --
+[2018.12.02-21.28.33:655][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2018.12.02-21.28.33:656][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2018.12.02-21.28.33:659][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.12.02-21.28.33:669][  0]LogRcon:Display: Rcon disabled.
+[2018.12.02-21.28.33:669][  0]LogModManager: Searching for mod/dlc controllers.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Pict.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Systems.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Items.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Characters.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Environment.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Base.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Effects.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Cinematics.pak added to pak precacher.
+[2018.12.02-21.28.34:420][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildingBase_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildingBase.BP_BuildingBase_C
+[2018.12.02-21.28.34:420][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T2_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwning_T2.BP_BuildAwning_T2_C
+[2018.12.02-21.28.34:420][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwning_T3.BP_BuildAwning_T3_C
+[2018.12.02-21.28.34:420][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildAwning_T3_Pict.BP_BuildAwning_T3_Pict_C
+[2018.12.02-21.28.34:425][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwningCorner_T3.BP_BuildAwningCorner_T3_C
+[2018.12.02-21.28.34:426][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildAwningCorner_T3_Pict.BP_BuildAwningCorner_T3_Pict_C
+[2018.12.02-21.28.34:450][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Aquilonia.pak added to pak precacher.
+[2018.12.02-21.28.34:450][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs.BP_BuildStairs_C
+[2018.12.02-21.28.34:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildPillar.BP_BuildPillar_C
+[2018.12.02-21.28.34:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_V2_Trebuchet_Foundation_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/Trebuchet/Trebuchet_V2/BP_V2_Trebuchet_Foundation.BP_V2_Trebuchet_Foundation_C
+[2018.12.02-21.28.34:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCeiling.BP_BuildCeiling_C
+[2018.12.02-21.28.34:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCeiling_T3.BP_BuildCeiling_T3_C
+[2018.12.02-21.28.34:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildCeiling_T3_Pict.BP_BuildCeiling_T3_Pict_C
+[2018.12.02-21.28.34:464][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCrenelatedWall.BP_BuildCrenelatedWall_C
+[2018.12.02-21.28.34:464][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildCrenelatedWall_Pict.BP_BuildCrenelatedWall_Pict_C
+[2018.12.02-21.28.34:468][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoor.BP_BuildDoor_C
+[2018.12.02-21.28.34:469][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoor_T3.BP_BuildDoor_T3_C
+[2018.12.02-21.28.34:469][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildDoor_T3_Pict.BP_BuildDoor_T3_Pict_C
+[2018.12.02-21.28.34:568][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Master_AnimBP.pak added to pak precacher.
+[2018.12.02-21.28.34:568][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_Master_Placeables_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_Master_Placeables.BP_Master_Placeables_C
+[2018.12.02-21.28.34:568][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Door_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Door.BP_PL_Door_C
+[2018.12.02-21.28.34:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoorFrame.BP_BuildDoorFrame_C
+[2018.12.02-21.28.34:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoorFrame_T3.BP_BuildDoorFrame_T3_C
+[2018.12.02-21.28.34:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildDoorFrame_T3_Pict.BP_BuildDoorFrame_T3_Pict_C
+[2018.12.02-21.28.34:576][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFence.BP_BuildFence_C
+[2018.12.02-21.28.34:576][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFence_T3.BP_BuildFence_T3_C
+[2018.12.02-21.28.34:576][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildFence_T3_Pict.BP_BuildFence_T3_Pict_C
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Marketplace.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Tools.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Maps.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Dev.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Chameleon.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/100+crosshairspack.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WastelandRocks.pak added to pak precacher.
+[2018.12.02-21.28.35:911][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well.BP_PL_Water_Well_C
+[2018.12.02-21.28.35:911][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_Tier2_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well_Tier2.BP_PL_Water_Well_Tier2_C
+[2018.12.02-21.28.35:911][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_Large_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well_Large.BP_PL_Water_Well_Large_C
+[2018.12.02-21.28.35:918][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Maproom_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/Maproom/BP_PL_Maproom.BP_PL_Maproom_C
+[2018.12.02-21.28.35:919][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor.BP_PL_GateDoor_C
+[2018.12.02-21.28.35:925][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_RespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_RespawnPoint.BP_PL_RespawnPoint_C
+[2018.12.02-21.28.35:926][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chair_Master.BP_PL_Chair_Master_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PlaceableItemContainer_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PlaceableItemContainer.BP_PlaceableItemContainer_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Crafting_Station_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Crafting_Station.BP_PL_Crafting_Station_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Altar_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Altar.BP_PL_Altar_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chest_Vault_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chest_Vault.BP_PL_Chest_Vault_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_CraftingStation_ThrallConverter_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_CraftingStation_ThrallConverter.BP_PL_CraftingStation_ThrallConverter_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFoundation.BP_BuildFoundation_C
+[2018.12.02-21.28.35:931][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFoundation_T3.BP_BuildFoundation_T3_C
+[2018.12.02-21.28.35:932][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildFoundation_T3_Pict.BP_BuildFoundation_T3_Pict_C
+[2018.12.02-21.28.35:988][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_FenceFoundation.BP_FenceFoundation_C
+[2018.12.02-21.28.35:988][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangleFoundation.BP_BuildTriangleFoundation_C
+[2018.12.02-21.28.35:989][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildGateFrame.BP_BuildGateFrame_C
+[2018.12.02-21.28.35:989][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildGateFrame_T3.BP_BuildGateFrame_T3_C
+[2018.12.02-21.28.35:989][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildGateFrame_T3_Pict.BP_BuildGateFrame_T3_Pict_C
+[2018.12.02-21.28.35:994][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildPillar_T3.BP_BuildPillar_T3_C
+[2018.12.02-21.28.35:994][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildPillar_T3_Pict.BP_BuildPillar_T3_Pict_C
+[2018.12.02-21.28.36:004][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped.BP_BuildRoof_Sloped_C
+[2018.12.02-21.28.36:005][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRamp_90degree_HL_T3.BP_BuildRamp_90degree_HL_T3_C
+[2018.12.02-21.28.36:005][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRamp_90degree_HL_T3_Pict.BP_BuildRamp_90degree_HL_T3_Pict_C
+[2018.12.02-21.28.36:010][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRamp_T3.BP_BuildRamp_T3_C
+[2018.12.02-21.28.36:010][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRamp_T3_Pict.BP_BuildRamp_T3_Pict_C
+[2018.12.02-21.28.36:014][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_90degree_Inverted_T3.BP_BuildRoof_90degree_Inverted_T3_C
+[2018.12.02-21.28.36:014][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Pict.BP_BuildRoof_90degree_Inverted_T3_Pict_C
+[2018.12.02-21.28.36:019][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_90degree_T3.BP_BuildRoof_90degree_T3_C
+[2018.12.02-21.28.36:020][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_90degree_T3_Pict.BP_BuildRoof_90degree_T3_Pict_C
+[2018.12.02-21.28.36:023][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_T3.BP_BuildRoof_Sloped_T3_C
+[2018.12.02-21.28.36:023][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_T3_Pict.BP_BuildRoof_Sloped_T3_Pict_C
+[2018.12.02-21.28.36:030][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_Flipped.BP_BuildRoof_Sloped_Triangle_Flipped_C
+[2018.12.02-21.28.36:030][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_Flipped_T3.BP_BuildRoof_Sloped_Triangle_Flipped_T3_C
+[2018.12.02-21.28.36:030][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict_C
+[2018.12.02-21.28.36:036][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle.BP_BuildRoof_Sloped_Triangle_C
+[2018.12.02-21.28.36:036][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_T3.BP_BuildRoof_Sloped_Triangle_T3_C
+[2018.12.02-21.28.36:036][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Pict.BP_BuildRoof_Sloped_Triangle_T3_Pict_C
+[2018.12.02-21.28.36:041][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_end_T3.BP_BuildRooftop_end_T3_C
+[2018.12.02-21.28.36:041][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_end_T3_Pict.BP_BuildRooftop_end_T3_Pict_C
+[2018.12.02-21.28.36:046][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionL_T3.BP_BuildRooftop_junctionL_T3_C
+[2018.12.02-21.28.36:046][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionL_T3_Pict.BP_BuildRooftop_junctionL_T3_Pict_C
+[2018.12.02-21.28.36:051][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionT_T3.BP_BuildRooftop_junctionT_T3_C
+[2018.12.02-21.28.36:051][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionT_T3_Pict.BP_BuildRooftop_junctionT_T3_Pict_C
+[2018.12.02-21.28.36:056][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionX_T3.BP_BuildRooftop_junctionX_T3_C
+[2018.12.02-21.28.36:056][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionX_T3_Pict.BP_BuildRooftop_junctionX_T3_Pict_C
+[2018.12.02-21.28.36:061][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_pyramidtop_T3.BP_BuildRooftop_pyramidtop_T3_C
+[2018.12.02-21.28.36:061][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_pyramidtop_T3_Pict.BP_BuildRooftop_pyramidtop_T3_Pict_C
+[2018.12.02-21.28.36:066][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_straight_T3.BP_BuildRooftop_straight_T3_C
+[2018.12.02-21.28.36:066][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_straight_T3_Pict.BP_BuildRooftop_straight_T3_Pict_C
+[2018.12.02-21.28.36:071][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_Corner_T3.BP_BuildStairs_Corner_T3_C
+[2018.12.02-21.28.36:071][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_Corner_T3_Pict.BP_BuildStairs_Corner_T3_Pict_C
+[2018.12.02-21.28.36:078][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_T3_Clean.BP_BuildStairs_T3_Clean_C
+[2018.12.02-21.28.36:078][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_T3_Clean_Pict.BP_BuildStairs_T3_Clean_Pict_C
+[2018.12.02-21.28.36:083][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_T3.BP_BuildStairs_T3_C
+[2018.12.02-21.28.36:083][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_T3_Pict.BP_BuildStairs_T3_Pict_C
+[2018.12.02-21.28.36:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWall.BP_BuildWall_C
+[2018.12.02-21.28.36:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallWindow.BP_BuildWallWindow_C
+[2018.12.02-21.28.36:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTrapdoor.BP_BuildTrapdoor_C
+[2018.12.02-21.28.36:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTrapdoor_T3.BP_BuildTrapdoor_T3_C
+[2018.12.02-21.28.36:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTrapdoor_T3_Pict.BP_BuildTrapdoor_T3_Pict_C
+[2018.12.02-21.28.36:099][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangle.BP_BuildTriangle_C
+[2018.12.02-21.28.36:099][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangle_T3.BP_BuildTriangle_T3_C
+[2018.12.02-21.28.36:099][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTriangle_T3_Pict.BP_BuildTriangle_T3_Pict_C
+[2018.12.02-21.28.36:104][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangleFoundation_T3.BP_BuildTriangleFoundation_T3_C
+[2018.12.02-21.28.36:105][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTriangleFoundation_T3_Pict.BP_BuildTriangleFoundation_T3_Pict_C
+[2018.12.02-21.28.36:110][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWall_T3.BP_BuildWall_T3_C
+[2018.12.02-21.28.36:111][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWall_T3_Pict.BP_BuildWall_T3_Pict_C
+[2018.12.02-21.28.36:117][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallCap.BP_BuildWallCap_C
+[2018.12.02-21.28.36:117][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallCap_T3.BP_BuildWallCap_T3_C
+[2018.12.02-21.28.36:117][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallCap_T3_Pict.BP_BuildWallCap_T3_Pict_C
+[2018.12.02-21.28.36:122][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_Inverted.BP_BuildWallSloped_Inverted_C
+[2018.12.02-21.28.36:122][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_Inverted_T3.BP_BuildWallSloped_Inverted_T3_C
+[2018.12.02-21.28.36:122][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSloped_Inverted_T3_Pict.BP_BuildWallSloped_Inverted_T3_Pict_C
+[2018.12.02-21.28.36:128][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped.BP_BuildWallSloped_C
+[2018.12.02-21.28.36:128][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_T3.BP_BuildWallSloped_T3_C
+[2018.12.02-21.28.36:129][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSloped_T3_Pict.BP_BuildWallSloped_T3_Pict_C
+[2018.12.02-21.28.36:134][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_Inverted.BP_BuildWallSlopedFlipped_Inverted_C
+[2018.12.02-21.28.36:134][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_Inverted_T3.BP_BuildWallSlopedFlipped_Inverted_T3_C
+[2018.12.02-21.28.36:134][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Pict.BP_BuildWallSlopedFlipped_Inverted_T3_Pict_C
+[2018.12.02-21.28.36:140][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped.BP_BuildWallSlopedFlipped_C
+[2018.12.02-21.28.36:140][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_T3.BP_BuildWallSlopedFlipped_T3_C
+[2018.12.02-21.28.36:140][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSlopedFlipped_T3_Pict.BP_BuildWallSlopedFlipped_T3_Pict_C
+[2018.12.02-21.28.36:146][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallWindow_T3.BP_BuildWallWindow_T3_C
+[2018.12.02-21.28.36:147][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallWindow_T3_Pict.BP_BuildWallWindow_T3_Pict_C
+[2018.12.02-21.28.36:152][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_FenceFoundation_T3.BP_FenceFoundation_T3_C
+[2018.12.02-21.28.36:152][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_FenceFoundation_T3_Pict.BP_FenceFoundation_T3_Pict_C
+[2018.12.02-21.28.36:154][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor_T3.BP_PL_GateDoor_T3_C
+[2018.12.02-21.28.36:154][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_GateDoor_T3_Pict.BP_PL_GateDoor_T3_Pict_C
+[2018.12.02-21.28.36:160][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Hatch.BP_PL_Hatch_C
+[2018.12.02-21.28.36:160][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Hatch_T3.BP_PL_Hatch_T3_C
+[2018.12.02-21.28.36:160][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_Hatch_T3_Pict.BP_PL_Hatch_T3_Pict_C
+[2018.12.02-21.28.36:162][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_HL_Door_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_HL_Door_T3.BP_PL_HL_Door_T3_C
+[2018.12.02-21.28.36:162][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pict_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_Pict_Door_T3.BP_PL_Pict_Door_T3_C
+[2018.12.02-21.28.36:257][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Khitai.pak added to pak precacher.
+[2018.12.02-21.28.36:257][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildAwning_T3_Khitai.BP_BuildAwning_T3_Khitai_C
+[2018.12.02-21.28.36:261][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildAwningCorner_T3_Khitai.BP_BuildAwningCorner_T3_Khitai_C
+[2018.12.02-21.28.36:264][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildCeiling_T3_Khitai.BP_BuildCeiling_T3_Khitai_C
+[2018.12.02-21.28.36:268][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildCrenelatedWall_Khitai.BP_BuildCrenelatedWall_Khitai_C
+[2018.12.02-21.28.36:271][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildDoor_T3_Khitai.BP_BuildDoor_T3_Khitai_C
+[2018.12.02-21.28.36:274][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildDoorFrame_T3_Khitai.BP_BuildDoorFrame_T3_Khitai_C
+[2018.12.02-21.28.36:276][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildFence_T3_Khitai.BP_BuildFence_T3_Khitai_C
+[2018.12.02-21.28.36:281][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildFoundation_T3_Khitai.BP_BuildFoundation_T3_Khitai_C
+[2018.12.02-21.28.36:284][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildGateFrame_T3_Khitai.BP_BuildGateFrame_T3_Khitai_C
+[2018.12.02-21.28.36:287][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildPillar_T3_Khitai.BP_BuildPillar_T3_Khitai_C
+[2018.12.02-21.28.36:290][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRamp_90degree_HL_T3_Khitai.BP_BuildRamp_90degree_HL_T3_Khitai_C
+[2018.12.02-21.28.36:293][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRamp_T3_Khitai.BP_BuildRamp_T3_Khitai_C
+[2018.12.02-21.28.36:297][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Khitai.BP_BuildRoof_90degree_Inverted_T3_Khitai_C
+[2018.12.02-21.28.36:299][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_90degree_T3_Khitai.BP_BuildRoof_90degree_T3_Khitai_C
+[2018.12.02-21.28.36:301][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_T3_Khitai.BP_BuildRoof_Sloped_T3_Khitai_C
+[2018.12.02-21.28.36:303][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai_C
+[2018.12.02-21.28.36:306][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Khitai.BP_BuildRoof_Sloped_Triangle_T3_Khitai_C
+[2018.12.02-21.28.36:308][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_end_T3_Khitai.BP_BuildRooftop_end_T3_Khitai_C
+[2018.12.02-21.28.36:311][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionL_T3_Khitai.BP_BuildRooftop_junctionL_T3_Khitai_C
+[2018.12.02-21.28.36:313][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionT_T3_Khitai.BP_BuildRooftop_junctionT_T3_Khitai_C
+[2018.12.02-21.28.36:316][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionX_T3_Khitai.BP_BuildRooftop_junctionX_T3_Khitai_C
+[2018.12.02-21.28.36:318][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_pyramidtop_T3_Khitai.BP_BuildRooftop_pyramidtop_T3_Khitai_C
+[2018.12.02-21.28.36:321][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_straight_T3_Khitai.BP_BuildRooftop_straight_T3_Khitai_C
+[2018.12.02-21.28.36:324][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_Corner_T3_Khitai.BP_BuildStairs_Corner_T3_Khitai_C
+[2018.12.02-21.28.36:328][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_T3_Clean_Khitai.BP_BuildStairs_T3_Clean_Khitai_C
+[2018.12.02-21.28.36:330][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_T3_Khitai.BP_BuildStairs_T3_Khitai_C
+[2018.12.02-21.28.36:332][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTrapdoor_T3_Khitai.BP_BuildTrapdoor_T3_Khitai_C
+[2018.12.02-21.28.36:334][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTriangle_T3_Khitai.BP_BuildTriangle_T3_Khitai_C
+[2018.12.02-21.28.36:337][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTriangleFoundation_T3_Khitai.BP_BuildTriangleFoundation_T3_Khitai_C
+[2018.12.02-21.28.36:339][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWall_T3_Khitai.BP_BuildWall_T3_Khitai_C
+[2018.12.02-21.28.36:341][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallCap_T3_Khitai.BP_BuildWallCap_T3_Khitai_C
+[2018.12.02-21.28.36:342][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSloped_Inverted_T3_Khitai.BP_BuildWallSloped_Inverted_T3_Khitai_C
+[2018.12.02-21.28.36:344][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSloped_T3_Khitai.BP_BuildWallSloped_T3_Khitai_C
+[2018.12.02-21.28.36:346][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Khitai.BP_BuildWallSlopedFlipped_Inverted_T3_Khitai_C
+[2018.12.02-21.28.36:348][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSlopedFlipped_T3_Khitai.BP_BuildWallSlopedFlipped_T3_Khitai_C
+[2018.12.02-21.28.36:350][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallWindow_T3_Khitai.BP_BuildWallWindow_T3_Khitai_C
+[2018.12.02-21.28.36:351][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_FenceFoundation_T3_Khitai.BP_FenceFoundation_T3_Khitai_C
+[2018.12.02-21.28.36:353][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_BlackJar_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_BlackJar.BP_PL_BlackJar_C
+[2018.12.02-21.28.36:355][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Brazier_Khitai.BP_PL_Brazier_Khitai_C
+[2018.12.02-21.28.36:357][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Khitai2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Brazier_Khitai2.BP_PL_Brazier_Khitai2_C
+[2018.12.02-21.28.36:359][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Khitai_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Carpet_Khitai_1.BP_PL_Carpet_Khitai_1_C
+[2018.12.02-21.28.36:361][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Khitai_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Carpet_Khitai_2.BP_PL_Carpet_Khitai_2_C
+[2018.12.02-21.28.36:362][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_CatIdol_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_CatIdol.BP_PL_CatIdol_C
+[2018.12.02-21.28.36:364][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron1.BP_PL_Cauldron1_C
+[2018.12.02-21.28.36:366][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron2.BP_PL_Cauldron2_C
+[2018.12.02-21.28.36:367][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron3_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron3.BP_PL_Cauldron3_C
+[2018.12.02-21.28.36:369][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron4_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron4.BP_PL_Cauldron4_C
+[2018.12.02-21.28.36:370][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Chair_Khitai.BP_PL_Chair_Khitai_C
+[2018.12.02-21.28.36:372][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Khitai2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Chair_Khitai2.BP_PL_Chair_Khitai2_C
+[2018.12.02-21.28.36:373][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_DragonIdol_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_DragonIdol.BP_PL_DragonIdol_C
+[2018.12.02-21.28.36:378][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Instrument_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Instrument_Master.BP_PL_Instrument_Master_C
+[2018.12.02-21.28.36:378][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Drum_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Drum_Khitai.BP_PL_Drum_Khitai_C
+[2018.12.02-21.28.36:379][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Footrest_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Footrest.BP_PL_Footrest_C
+[2018.12.02-21.28.36:380][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_GateDoor_T3_Khitai.BP_PL_GateDoor_T3_Khitai_C
+[2018.12.02-21.28.36:381][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Hatch_T3_Khitai.BP_PL_Hatch_T3_Khitai_C
+[2018.12.02-21.28.36:382][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Khitai_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Khitai_Door_T3.BP_PL_Khitai_Door_T3_C
+[2018.12.02-21.28.36:383][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Khitai_FoldingScreen_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Khitai_FoldingScreen.BP_PL_Khitai_FoldingScreen_C
+[2018.12.02-21.28.36:386][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Lamp_Hanging_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Lamp_Hanging.BP_PL_Lamp_Hanging_C
+[2018.12.02-21.28.36:388][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pillow_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Pillow_Khitai.BP_PL_Pillow_Khitai_C
+[2018.12.02-21.28.36:390][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Statue.BP_PL_Statue_C
+[2018.12.02-21.28.36:391][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Khitai_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Table_Khitai_1.BP_PL_Table_Khitai_1_C
+[2018.12.02-21.28.36:393][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Khitai_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Table_Khitai_2.BP_PL_Table_Khitai_2_C
+[2018.12.02-21.28.36:394][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_RiceLamp_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_W_RiceLamp.BP_PL_W_RiceLamp_C
+[2018.12.02-21.28.36:396][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_Tapestry_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_W_Tapestry_Khitai.BP_PL_W_Tapestry_Khitai_C
+[2018.12.02-21.28.36:399][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_WorkStation_Artisan_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_WorkStation_Artisan_Khitai.BP_PL_WorkStation_Artisan_Khitai_C
+[2018.12.02-21.28.36:401][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Zheng_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Zheng.BP_PL_Zheng_C
+[2018.12.02-21.28.36:431][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildAwning_T3_Aquilonia.BP_BuildAwning_T3_Aquilonia_C
+[2018.12.02-21.28.36:433][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildAwningCorner_T3_Aquilonia.BP_BuildAwningCorner_T3_Aquilonia_C
+[2018.12.02-21.28.36:436][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildCeiling_T3_Aquilonia.BP_BuildCeiling_T3_Aquilonia_C
+[2018.12.02-21.28.36:438][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildCrenelatedWall_Aquilonia.BP_BuildCrenelatedWall_Aquilonia_C
+[2018.12.02-21.28.36:441][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildDoor_T3_Aquilonia.BP_BuildDoor_T3_Aquilonia_C
+[2018.12.02-21.28.36:445][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildDoorFrame_T3_Aquilonia.BP_BuildDoorFrame_T3_Aquilonia_C
+[2018.12.02-21.28.36:447][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildFence_T3_Aquilonia.BP_BuildFence_T3_Aquilonia_C
+[2018.12.02-21.28.36:449][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildFoundation_T3_Aquilonia.BP_BuildFoundation_T3_Aquilonia_C
+[2018.12.02-21.28.36:451][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildGateFrame_T3_Aquilonia.BP_BuildGateFrame_T3_Aquilonia_C
+[2018.12.02-21.28.36:452][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildPillar_T3_Aquilonia.BP_BuildPillar_T3_Aquilonia_C
+[2018.12.02-21.28.36:454][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRamp_90degree_HL_T3_Aquilonia.BP_BuildRamp_90degree_HL_T3_Aquilonia_C
+[2018.12.02-21.28.36:455][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRamp_T3_Aquilonia.BP_BuildRamp_T3_Aquilonia_C
+[2018.12.02-21.28.36:457][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Aquilonia.BP_BuildRoof_90degree_Inverted_T3_Aquilonia_C
+[2018.12.02-21.28.36:459][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_90degree_T3_Aquilonia.BP_BuildRoof_90degree_T3_Aquilonia_C
+[2018.12.02-21.28.36:460][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_T3_Aquilonia.BP_BuildRoof_Sloped_T3_Aquilonia_C
+[2018.12.02-21.28.36:462][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia_C
+[2018.12.02-21.28.36:464][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Aquilonia.BP_BuildRoof_Sloped_Triangle_T3_Aquilonia_C
+[2018.12.02-21.28.36:466][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_end_T3_Aquilonia.BP_BuildRooftop_end_T3_Aquilonia_C
+[2018.12.02-21.28.36:468][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionL_T3_Aquilonia.BP_BuildRooftop_junctionL_T3_Aquilonia_C
+[2018.12.02-21.28.36:470][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionT_T3_Aquilonia.BP_BuildRooftop_junctionT_T3_Aquilonia_C
+[2018.12.02-21.28.36:472][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionX_T3_Aquilonia.BP_BuildRooftop_junctionX_T3_Aquilonia_C
+[2018.12.02-21.28.36:474][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_pyramidtop_T3_Aquilonia.BP_BuildRooftop_pyramidtop_T3_Aquilonia_C
+[2018.12.02-21.28.36:477][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_straight_T3_Aquilonia.BP_BuildRooftop_straight_T3_Aquilonia_C
+[2018.12.02-21.28.36:478][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_Corner_T3_Aquilonia.BP_BuildStairs_Corner_T3_Aquilonia_C
+[2018.12.02-21.28.36:480][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_T3_Aquilonia.BP_BuildStairs_T3_Aquilonia_C
+[2018.12.02-21.28.36:481][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_T3_Clean_Aquilonia.BP_BuildStairs_T3_Clean_Aquilonia_C
+[2018.12.02-21.28.36:483][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTrapdoor_T3_Aquilonia.BP_BuildTrapdoor_T3_Aquilonia_C
+[2018.12.02-21.28.36:485][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTriangle_T3_Aquilonia.BP_BuildTriangle_T3_Aquilonia_C
+[2018.12.02-21.28.36:487][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTriangleFoundation_T3_Aquilonia.BP_BuildTriangleFoundation_T3_Aquilonia_C
+[2018.12.02-21.28.36:489][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWall_T3_Aquilonia.BP_BuildWall_T3_Aquilonia_C
+[2018.12.02-21.28.36:491][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallCap_T3_Aquilonia.BP_BuildWallCap_T3_Aquilonia_C
+[2018.12.02-21.28.36:492][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSloped_Inverted_T3_Aquilonia.BP_BuildWallSloped_Inverted_T3_Aquilonia_C
+[2018.12.02-21.28.36:494][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSloped_T3_Aquilonia.BP_BuildWallSloped_T3_Aquilonia_C
+[2018.12.02-21.28.36:496][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia.BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia_C
+[2018.12.02-21.28.36:498][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSlopedFlipped_T3_Aquilonia.BP_BuildWallSlopedFlipped_T3_Aquilonia_C
+[2018.12.02-21.28.36:500][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallWindow_T3_Aquilonia.BP_BuildWallWindow_T3_Aquilonia_C
+[2018.12.02-21.28.36:501][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_FenceFoundation_T3_Aquilonia.BP_FenceFoundation_T3_Aquilonia_C
+[2018.12.02-21.28.36:502][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Aquilonia_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Aquilonia_Door_T3.BP_PL_Aquilonia_Door_T3_C
+[2018.12.02-21.28.36:503][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Aquilonian_FoldingScreen_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Aquilonian_FoldingScreen.BP_PL_Aquilonian_FoldingScreen_C
+[2018.12.02-21.28.36:507][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_PrimaryRespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_PrimaryRespawnPoint.BP_PL_PrimaryRespawnPoint_C
+[2018.12.02-21.28.36:507][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Bed_Common_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Bed_Common.BP_PL_Bed_Common_C
+[2018.12.02-21.28.36:507][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Bed_Aquilonian_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Bed_Aquilonian.BP_PL_Bed_Aquilonian_C
+[2018.12.02-21.28.36:509][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_BedsideTable_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_BedsideTable_Aquilonia.BP_PL_BedsideTable_Aquilonia_C
+[2018.12.02-21.28.36:511][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_Aquilonia.BP_PL_Brazier_Aquilonia_C
+[2018.12.02-21.28.36:513][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_Aquilonia2.BP_PL_Brazier_Aquilonia2_C
+[2018.12.02-21.28.36:515][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_ceilingchain_aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_ceilingchain_aquilonia.BP_PL_Brazier_ceilingchain_aquilonia_C
+[2018.12.02-21.28.36:517][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Aquilonia_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Carpet_Aquilonia_1.BP_PL_Carpet_Aquilonia_1_C
+[2018.12.02-21.28.36:519][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia.BP_PL_Chair_Aquilonia_C
+[2018.12.02-21.28.36:520][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia_2.BP_PL_Chair_Aquilonia_2_C
+[2018.12.02-21.28.36:522][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia_3.BP_PL_Chair_Aquilonia_3_C
+[2018.12.02-21.28.36:523][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Couch_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Couch_Aquilonia.BP_PL_Couch_Aquilonia_C
+[2018.12.02-21.28.36:525][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Desk_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Desk_Aquilonia.BP_PL_Desk_Aquilonia_C
+[2018.12.02-21.28.36:529][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Flag_Standing_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Flag_Standing_Aquilonia.BP_PL_Flag_Standing_Aquilonia_C
+[2018.12.02-21.28.36:531][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Flag_Standing_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Flag_Standing_Aquilonia2.BP_PL_Flag_Standing_Aquilonia2_C
+[2018.12.02-21.28.36:532][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_GateDoor_T3_Aquilonia.BP_PL_GateDoor_T3_Aquilonia_C
+[2018.12.02-21.28.36:534][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Harp_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Harp_Aquilonia.BP_PL_Harp_Aquilonia_C
+[2018.12.02-21.28.36:536][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Hatch_T3_Aquilonia.BP_PL_Hatch_T3_Aquilonia_C
+[2018.12.02-21.28.36:537][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery1_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery1_Aquilonia.BP_PL_Pottery1_Aquilonia_C
+[2018.12.02-21.28.36:539][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery2_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery2_Aquilonia.BP_PL_Pottery2_Aquilonia_C
+[2018.12.02-21.28.36:540][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery3_Aquilonia.BP_PL_Pottery3_Aquilonia_C
+[2018.12.02-21.28.36:542][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia1_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia1.BP_PL_Statue_Aquilonia1_C
+[2018.12.02-21.28.36:543][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia2.BP_PL_Statue_Aquilonia2_C
+[2018.12.02-21.28.36:546][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia3.BP_PL_Statue_Aquilonia3_C
+[2018.12.02-21.28.36:547][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia4_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia4.BP_PL_Statue_Aquilonia4_C
+[2018.12.02-21.28.36:549][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Table_Aquilonia.BP_PL_Table_Aquilonia_C
+[2018.12.02-21.28.36:550][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_Torch_Gas_Wall_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_W_Torch_Gas_Wall_Aquilonia.BP_PL_W_Torch_Gas_Wall_Aquilonia_C
+[2018.12.02-21.28.36:553][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_WorkStation_Artisan_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_WorkStation_Artisan_Aquilonia.BP_PL_WorkStation_Artisan_Aquilonia_C
+[2018.12.02-21.28.36:556][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanSword_DLC.pak added to pak precacher.
+[2018.12.02-21.28.36:556][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanArmor_DLC.pak added to pak precacher.
+[2018.12.02-21.28.36:556][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Khitai/BP_ModController_Khitai_DLC.BP_ModController_Khitai_DLC_C
+[2018.12.02-21.28.36:572][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_ItemTable.Khitai_DLC_ItemTable
+[2018.12.02-21.28.36:577][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_RecipeTable.Khitai_DLC_RecipeTable
+[2018.12.02-21.28.36:577][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_FeatTable.Khitai_DLC_FeatTable
+[2018.12.02-21.28.36:580][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Khitai/DLC_Khitai_EquipmentVariationTable.DLC_Khitai_EquipmentVariationTable
+[2018.12.02-21.28.36:580][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_Male_WarPaintSelections.Khitai_DLC_Male_WarPaintSelections
+[2018.12.02-21.28.36:580][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_Female_WarPaintSelections.Khitai_DLC_Female_WarPaintSelections
+[2018.12.02-21.28.36:580][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_ItemNameToTemplateID.Khitai_DLC_ItemNameToTemplateID
+[2018.12.02-21.28.36:580][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ModController.DLC_Aquilonia_ModController_C
+[2018.12.02-21.28.36:580][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Crafting/CraftingStationNameTable.CraftingStationNameTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_CraftingStationTable.DLC_Aquilonia_CraftingStationTable
+[2018.12.02-21.28.36:582][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_EquipmentVariationTable.DLC_Aquilonia_EquipmentVariationTable
+[2018.12.02-21.28.36:582][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_FeatTable.DLC_Aquilonia_FeatTable
+[2018.12.02-21.28.36:582][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ItemNameToTemplateIDTable.DLC_Aquilonia_ItemNameToTemplateIDTable
+[2018.12.02-21.28.36:598][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ItemTable.DLC_Aquilonia_ItemTable
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_RecipesTable.DLC_Aquilonia_RecipesTable
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/Aquilonia_DLC_Female_WarPaintSelections.Aquilonia_DLC_Female_WarPaintSelections
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/Aquilonia_DLC_Male_WarPaintSelections.Aquilonia_DLC_Male_WarPaintSelections
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/WarPaintColorSelections.WarPaintColorSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_WarPaintColorSelections.DLC_Aquilonia_WarPaintColorSelections
+[2018.12.02-21.28.36:604][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_ItemTable.ConanSword_DLC_ItemTable
+[2018.12.02-21.28.36:604][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_RecipeTable.ConanSword_DLC_RecipeTable
+[2018.12.02-21.28.36:604][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2018.12.02-21.28.36:605][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_ItemTable.ConanArmor_DLC_ItemTable
+[2018.12.02-21.28.36:605][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_RecipeTable.ConanArmor_DLC_RecipeTable
+[2018.12.02-21.28.36:605][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Pict/DLC_Pict_Modcontroller.DLC_Pict_Modcontroller_C
+[2018.12.02-21.28.36:607][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_EquipmentVariationTable.DLC_Pict_EquipmentVariationTable
+[2018.12.02-21.28.36:607][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_Female_WarPaintSelections.DLC_Pict_Female_WarPaintSelections
+[2018.12.02-21.28.36:607][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_Male_WarPaintSelections.DLC_Pict_Male_WarPaintSelections
+[2018.12.02-21.28.36:607][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/WarPaintColorSelections.WarPaintColorSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_WarPaintColorSelections.DLC_Pict_WarPaintColorSelections
+[2018.12.02-21.28.36:608][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_FeatTable.DLC_Pict_FeatTable
+[2018.12.02-21.28.36:623][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ItemTable.DLC_Pict_ItemTable
+[2018.12.02-21.28.36:624][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ItemNameToTemplateID.DLC_Pict_ItemNameToTemplateID
+[2018.12.02-21.28.36:628][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_RecipesTable.DLC_Pict_RecipesTable
+[2018.12.02-21.28.36:629][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/SpawnTable/ProfessionTemplateDataTable.ProfessionTemplateDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ProfessionTable.DLC_Pict_ProfessionTable
+[2018.12.02-21.28.36:629][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/SpawnTable/SpawnDataTable.SpawnDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_SpawnDataTable.DLC_Pict_SpawnDataTable
+[2018.12.02-21.28.36:630][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Thrall/ThrallDataTable.ThrallDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ThrallDataTable.DLC_Pict_ThrallDataTable
+[2018.12.02-21.28.36:630][  0]LogModManager: Done searching for mod controllers.
+[2018.12.02-21.28.36:630][  0]LogEngine: Initializing Engine...
+[2018.12.02-21.28.36:632][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2018.12.02-21.28.36:636][  0]LogStreaming:Error: Found 0 dependent packages...
+[2018.12.02-21.28.36:636][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2018.12.02-21.28.36:641][  0]LogInit: Texture streaming: Disabled
+[2018.12.02-21.28.36:660][  0]LogInit:Display: Game Engine Initialized.
+[2018.12.02-21.28.36:660][  0]LogInit:Display: Starting Game.
+[2018.12.02-21.28.36:660][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2018.12.02-21.28.36:660][  0]UnitTest:Display: ClientState: 0
+[2018.12.02-21.28.36:670][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2018.12.02-21.28.38:562][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WeatherEffects.pak added to pak precacher.
+[2018.12.02-21.28.38:562][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/RedDesertPack.pak added to pak precacher.
+[2018.12.02-21.28.38:562][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/NaturePackage.pak added to pak precacher.
+[2018.12.02-21.28.38:562][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2018.12.02-21.28.38:562][  0]LogStreaming:Error: Found 1 dependent packages...
+[2018.12.02-21.28.38:562][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2018.12.02-21.28.38:562][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ProceduralNaturePack.pak added to pak precacher.
+[2018.12.02-21.28.38:562][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/OceanFloor.pak added to pak precacher.
+[2018.12.02-21.28.38:562][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildingBase_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildingBase.BP_BuildingBase_C
+[2018.12.02-21.28.38:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_Master_Placeables_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_Master_Placeables.BP_Master_Placeables_C
+[2018.12.02-21.28.38:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Door_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Door.BP_PL_Door_C
+[2018.12.02-21.28.38:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor.BP_PL_GateDoor_C
+[2018.12.02-21.28.38:583][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_RespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_RespawnPoint.BP_PL_RespawnPoint_C
+[2018.12.02-21.28.38:583][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chair_Master.BP_PL_Chair_Master_C
+[2018.12.02-21.28.38:666][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2018.12.02-21.28.38:666][  0]LogLoad: Game class is 'BaseGameMode_C'
+[2018.12.02-21.28.38:666][  0]SpawnTable:Display: USpawnTableComponent Generating Static Data
+[2018.12.02-21.28.38:679][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.02-21.28.38:707][  0]LogInit: WinSock: I am Fugen7-2 (10.0.0.19:0)
+[2018.12.02-21.28.38:707][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.02-21.28.38:707][  0]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2018.12.02-21.28.38:719][  0]LogLevelActorContainer: Created LevelActorCluster (0) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 262 objects, 0 referenced clusters and 12 mutable objects.
+[2018.12.02-21.28.38:720][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2018.12.02-15.28.38
+[2018.12.02-21.28.38:720][  0]LogMemory:Display: Entered application state 'InitGame'.
+[2018.12.02-21.28.38:720][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.28.38:744][  0]ConanSandbox:Display: Creating database backup for new game build 112258
+[2018.12.02-21.28.38:744][  0]Dreamworld:Display: CreateBackup: remaining pages: 1
+[2018.12.02-21.28.38:747][  0]Dreamworld:Display: CreateBackup: database I:\SteamLibrary\steamapps\common\Conan Exiles Dedicated Server\ConanSandbox\Saved\game.db backup complete.
+[2018.12.02-21.28.38:821][  0]Dreamworld:Display: CreateBackup: remaining pages: 41
+[2018.12.02-21.28.38:821][  0]Dreamworld:Display: CreateBackup: remaining pages: 40
+[2018.12.02-21.28.38:821][  0]Dreamworld:Display: CreateBackup: remaining pages: 39
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 38
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 37
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 36
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 35
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 34
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 33
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 32
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 31
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 30
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 29
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 28
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 27
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 26
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 25
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 24
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 23
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 22
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 21
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 20
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 19
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 18
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 17
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 16
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 15
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 14
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 13
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 12
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 11
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 10
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 9
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 8
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 7
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 6
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 5
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 4
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 3
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 2
+[2018.12.02-21.28.38:822][  0]Dreamworld:Display: CreateBackup: remaining pages: 1
+[2018.12.02-21.28.38:826][  0]Dreamworld:Display: CreateBackup: database I:\SteamLibrary\steamapps\common\Conan Exiles Dedicated Server\ConanSandbox\Saved\game.db backup complete.
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 50
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 49
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 48
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 47
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 46
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 45
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 44
+[2018.12.02-21.28.38:858][  0]Dreamworld:Display: CreateBackup: remaining pages: 43
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 42
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 41
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 40
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 39
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 38
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 37
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 36
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 35
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 34
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 33
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 32
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 31
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 30
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 29
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 28
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 27
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 26
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 25
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 24
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 23
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 22
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 21
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 20
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 19
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 18
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 17
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 16
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 15
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 14
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 13
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 12
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 11
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 10
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 9
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 8
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 7
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 6
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 5
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 4
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 3
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 2
+[2018.12.02-21.28.38:859][  0]Dreamworld:Display: CreateBackup: remaining pages: 1
+[2018.12.02-21.28.38:863][  0]Dreamworld:Display: CreateBackup: database I:\SteamLibrary\steamapps\common\Conan Exiles Dedicated Server\ConanSandbox\Saved\game.db backup complete.
+[2018.12.02-21.28.38:891][  0]Main:Display: Creating ServiceActors for "/Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel.BaseGameState_C_0"...
+[2018.12.02-21.28.38:891][  0]Main:Display: Registered service actor "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookup.BP_ComboRulesLookup_C" with interface "/Game/Systems/Combat/ComboSystem/BP_ComboRulesLookupInterface.BP_ComboRulesLookupInterface_C".
+[2018.12.02-21.28.38:891][  0]Audio:Display: Not creating SoundStage: Running on dedicated server.
+[2018.12.02-21.28.38:895][  0]LogWorld: Bringing up level for play took: 0.187331
+[2018.12.02-21.28.38:909][  0]LogMemory:Display: Entered application state 'StartPlay'.
+[2018.12.02-21.28.38:909][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.02-21.28.38:909][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.02-21.28.38:909][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.02-21.28.38:925][  0]Persistence: Loading/Spawning active mod controllers, #5 expected
+[2018.12.02-21.28.38:927][  0]Persistence: Spawning mod controller: BP_ModController_Khitai_DLC_C
+[2018.12.02-21.28.38:931][  0]Persistence: Spawning mod controller: DLC_Aquilonia_ModController_C
+[2018.12.02-21.28.38:935][  0]Persistence: Spawning mod controller: BP_ConanSword_DLC_ModController_C
+[2018.12.02-21.28.38:939][  0]Persistence: Spawning mod controller: BP_ConanArmor_DLC_ModController_C
+[2018.12.02-21.28.38:943][  0]Persistence: Spawning mod controller: DLC_Pict_Modcontroller_C
+[2018.12.02-21.28.38:947][  0]LogMemory:Display: Entered application state 'MatchStarting'.
+[2018.12.02-21.28.38:990][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Developers.pak added to pak precacher.
+[2018.12.02-21.28.38:990][  0]LogLevelActorContainer: Created LevelActorCluster (1) for /Game/Maps/ConanSandbox/Art/Art_CurseWall.Art_CurseWall:PersistentLevel with 16 objects, 0 referenced clusters and 10 mutable objects.
+[2018.12.02-21.28.39:031][  0]LogLevelActorContainer: Created LevelActorCluster (2) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x1_y4.Art_Caves_x1_y4:PersistentLevel with 174 objects, 0 referenced clusters and 34 mutable objects.
+[2018.12.02-21.28.39:040][  0]LogLevelActorContainer: Created LevelActorCluster (3) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x2_y4.Art_Caves_x2_y4:PersistentLevel with 70 objects, 0 referenced clusters and 9 mutable objects.
+[2018.12.02-21.28.39:048][  0]LogLevelActorContainer: Created LevelActorCluster (4) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y1.Art_Caves_x3_y1:PersistentLevel with 126 objects, 0 referenced clusters and 15 mutable objects.
+[2018.12.02-21.28.39:073][  0]LogLevelActorContainer: Created LevelActorCluster (5) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y2_A.Art_Caves_x3_y2_A:PersistentLevel with 362 objects, 0 referenced clusters and 32 mutable objects.
+[2018.12.02-21.28.39:076][  0]LogLevelActorContainer: Created LevelActorCluster (6) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y2_B.Art_Caves_x3_y2_B:PersistentLevel with 126 objects, 0 referenced clusters and 16 mutable objects.
+[2018.12.02-21.28.39:078][  0]LogLevelActorContainer: Created LevelActorCluster (7) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y2_C.Art_Caves_x3_y2_C:PersistentLevel with 126 objects, 0 referenced clusters and 15 mutable objects.
+[2018.12.02-21.28.39:086][  0]LogLevelActorContainer: Created LevelActorCluster (8) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y3.Art_Caves_x3_y3:PersistentLevel with 168 objects, 0 referenced clusters and 21 mutable objects.
+[2018.12.02-21.28.39:096][  0]LogLevelActorContainer: Created LevelActorCluster (9) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y3_A.Art_Caves_x3_y3_A:PersistentLevel with 376 objects, 0 referenced clusters and 28 mutable objects.
+[2018.12.02-21.28.39:144][  0]LogLevelActorContainer: Created LevelActorCluster (10) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y3_B.Art_Caves_x3_y3_B:PersistentLevel with 938 objects, 0 referenced clusters and 66 mutable objects.
+[2018.12.02-21.28.39:149][  0]LogLevelActorContainer: Created LevelActorCluster (11) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x3_y3_C.Art_Caves_x3_y3_C:PersistentLevel with 226 objects, 0 referenced clusters and 29 mutable objects.
+[2018.12.02-21.28.39:168][  0]LogLevelActorContainer: Created LevelActorCluster (12) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y1.Art_Caves_x4_y1:PersistentLevel with 616 objects, 0 referenced clusters and 46 mutable objects.
+[2018.12.02-21.28.39:249][  0]LogLevelActorContainer: Created LevelActorCluster (13) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y2.Art_Caves_x4_y2:PersistentLevel with 1970 objects, 0 referenced clusters and 123 mutable objects.
+[2018.12.02-21.28.39:308][  0]LogLevelActorContainer: Created LevelActorCluster (14) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x4_y4.Art_Caves_x4_y4:PersistentLevel with 2412 objects, 0 referenced clusters and 55 mutable objects.
+[2018.12.02-21.28.39:334][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Stumps_and_logs.pak added to pak precacher.
+[2018.12.02-21.28.39:334][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ForestMushroomsPack.pak added to pak precacher.
+[2018.12.02-21.28.39:334][  0]LogLevelActorContainer: Created LevelActorCluster (15) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x5_y3.Art_Caves_x5_y3:PersistentLevel with 512 objects, 0 referenced clusters and 16 mutable objects.
+[2018.12.02-21.28.39:379][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Elemental.pak added to pak precacher.
+[2018.12.02-21.28.39:379][  0]LogLevelActorContainer: Created LevelActorCluster (16) for /Game/Maps/ConanSandbox/Art/Caves/Art_Caves_x5_y4.Art_Caves_x5_y4:PersistentLevel with 1024 objects, 0 referenced clusters and 77 mutable objects.
+[2018.12.02-21.28.39:560][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/TextureMax.pak added to pak precacher.
+[2018.12.02-21.28.39:560][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/DataLayer requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/DataLayer
+[2018.12.02-21.28.39:560][  0]LogStreaming:Error: Found 1 dependent packages...
+[2018.12.02-21.28.39:560][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_JhebbalSag
+[2018.12.02-21.28.39:560][  0]LogLevelActorContainer: Created LevelActorCluster (17) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_JhebbalSag.Art_Dungeon_JhebbalSag:PersistentLevel with 6041 objects, 0 referenced clusters and 135 mutable objects.
+[2018.12.02-21.28.39:605][  0]LogLevelActorContainer: Created LevelActorCluster (18) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1.Art_Dungeon_x2_y1_Sewer_1:PersistentLevel with 938 objects, 0 referenced clusters and 59 mutable objects.
+[2018.12.02-21.28.39:637][  0]LogLevelActorContainer: Created LevelActorCluster (19) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1_A.Art_Dungeon_x2_y1_Sewer_1_A:PersistentLevel with 774 objects, 0 referenced clusters and 58 mutable objects.
+[2018.12.02-21.28.39:654][  0]LogLevelActorContainer: Created LevelActorCluster (20) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1_B.Art_Dungeon_x2_y1_Sewer_1_B:PersistentLevel with 696 objects, 0 referenced clusters and 50 mutable objects.
+[2018.12.02-21.28.39:661][  0]LogLevelActorContainer: Created LevelActorCluster (21) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1_C.Art_Dungeon_x2_y1_Sewer_1_C:PersistentLevel with 278 objects, 0 referenced clusters and 42 mutable objects.
+[2018.12.02-21.28.39:744][  0]LogLevelActorContainer: Created LevelActorCluster (22) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1_D.Art_Dungeon_x2_y1_Sewer_1_D:PersistentLevel with 3856 objects, 0 referenced clusters and 101 mutable objects.
+[2018.12.02-21.28.39:792][  0]LogLevelActorContainer: Created LevelActorCluster (23) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y1_Sewer_1_E.Art_Dungeon_x2_y1_Sewer_1_E:PersistentLevel with 1796 objects, 0 referenced clusters and 77 mutable objects.
+[2018.12.02-21.28.39:963][  0]LogLevelActorContainer: Created LevelActorCluster (24) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y5_Abandoned_Keep.Art_Dungeon_x2_y5_Abandoned_Keep:PersistentLevel with 8368 objects, 0 referenced clusters and 126 mutable objects.
+[2018.12.02-21.28.40:023][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Assets.pak added to pak precacher.
+[2018.12.02-21.28.40:023][  0]LogLevelActorContainer: Created LevelActorCluster (25) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x2_y6_Tempel_of_Frost.Art_Dungeon_x2_y6_Tempel_of_Frost:PersistentLevel with 1276 objects, 0 referenced clusters and 67 mutable objects.
+[2018.12.02-21.28.40:051][  0]LogLevelActorContainer: Created LevelActorCluster (26) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x5_y1_SandRuin.Art_Dungeon_x5_y1_SandRuin:PersistentLevel with 15 objects, 0 referenced clusters and 7 mutable objects.
+[2018.12.02-21.28.40:083][  0]LogLevelActorContainer: Created LevelActorCluster (27) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x7_y0_Witch.Art_Dungeon_x7_y0_Witch:PersistentLevel with 146 objects, 0 referenced clusters and 22 mutable objects.
+[2018.12.02-21.28.40:102][  0]LogLevelActorContainer: Created LevelActorCluster (28) for /Game/Maps/ConanSandbox/Art/Dungeon/Art_Dungeon_x7_y6_DragonMouth.Art_Dungeon_x7_y6_DragonMouth:PersistentLevel with 322 objects, 0 referenced clusters and 35 mutable objects.
+[2018.12.02-21.28.40:135][  0]LogLevelActorContainer: Created LevelActorCluster (29) for /Game/Maps/ConanSandbox/Art/Dungeon/ArtDungeonMapRoom.ArtDungeonMapRoom:PersistentLevel with 924 objects, 0 referenced clusters and 47 mutable objects.
+[2018.12.02-21.28.40:152][  0]LogLevelActorContainer: Created LevelActorCluster (30) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y0.Heightmap_x0_y0:PersistentLevel with 101 objects, 0 referenced clusters and 23 mutable objects.
+[2018.12.02-21.28.40:158][  0]LogLevelActorContainer: Created LevelActorCluster (31) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y1.Heightmap_x0_y1:PersistentLevel with 91 objects, 0 referenced clusters and 18 mutable objects.
+[2018.12.02-21.28.40:162][  0]LogLevelActorContainer: Created LevelActorCluster (32) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y2.Heightmap_x0_y2:PersistentLevel with 66 objects, 0 referenced clusters and 5 mutable objects.
+[2018.12.02-21.28.40:166][  0]LogLevelActorContainer: Created LevelActorCluster (33) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y3.Heightmap_x0_y3:PersistentLevel with 66 objects, 0 referenced clusters and 5 mutable objects.
+[2018.12.02-21.28.40:170][  0]LogLevelActorContainer: Created LevelActorCluster (34) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x0_y4.Heightmap_x0_y4:PersistentLevel with 66 objects, 0 referenced clusters and 5 mutable objects.
+[2018.12.02-21.28.40:177][  0]LogLevelActorContainer: Created LevelActorCluster (35) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y0.Heightmap_x1_y0:PersistentLevel with 113 objects, 0 referenced clusters and 16 mutable objects.
+[2018.12.02-21.28.40:181][  0]LogLevelActorContainer: Created LevelActorCluster (36) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y1.Heightmap_x1_y1:PersistentLevel with 67 objects, 0 referenced clusters and 13 mutable objects.
+[2018.12.02-21.28.40:289][  0]LogLevelActorContainer: Created LevelActorCluster (37) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y2.Heightmap_x1_y2:PersistentLevel with 1413 objects, 0 referenced clusters and 101 mutable objects.
+[2018.12.02-21.28.40:438][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2018.12.02-21.28.40:438][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2018.12.02-21.28.40:438][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2018.12.02-21.28.40:452][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2018.12.02-21.28.40:456][  0]LogLevelActorContainer: Created LevelActorCluster (38) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y3.Heightmap_x1_y3:PersistentLevel with 3749 objects, 0 referenced clusters and 182 mutable objects.
+[2018.12.02-21.28.40:569][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ExampleContent.pak added to pak precacher.
+[2018.12.02-21.28.40:569][  0]LogLevelActorContainer: Created LevelActorCluster (39) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y4.Heightmap_x1_y4:PersistentLevel with 2328 objects, 0 referenced clusters and 155 mutable objects.
+[2018.12.02-21.28.40:659][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorLandscapeResources/SplineEditorMesh requested by async loading code. NameToLoad: /Engine/EditorLandscapeResources/SplineEditorMesh
+[2018.12.02-21.28.40:659][  0]LogStreaming:Error: Found 1 dependent packages...
+[2018.12.02-21.28.40:659][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y5
+[2018.12.02-21.28.40:659][  0]LogLevelActorContainer: Created LevelActorCluster (40) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y5.Heightmap_x1_y5:PersistentLevel with 2737 objects, 0 referenced clusters and 114 mutable objects.
+[2018.12.02-21.28.40:664][  0]LogLevelActorContainer: Created LevelActorCluster (41) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y6.Heightmap_x1_y6:PersistentLevel with 80 objects, 0 referenced clusters and 11 mutable objects.
+[2018.12.02-21.28.40:668][  0]LogLevelActorContainer: Created LevelActorCluster (42) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x1_y7.Heightmap_x1_y7:PersistentLevel with 66 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.40:673][  0]LogLevelActorContainer: Created LevelActorCluster (43) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y0.Heightmap_x2_y0:PersistentLevel with 111 objects, 0 referenced clusters and 22 mutable objects.
+[2018.12.02-21.28.40:711][  0]LogLevelActorContainer: Created LevelActorCluster (44) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y1.Heightmap_x2_y1:PersistentLevel with 437 objects, 0 referenced clusters and 64 mutable objects.
+[2018.12.02-21.28.40:836][  0]LogLevelActorContainer: Created LevelActorCluster (45) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y2.Heightmap_x2_y2:PersistentLevel with 1524 objects, 0 referenced clusters and 120 mutable objects.
+[2018.12.02-21.28.40:915][  0]LogLevelActorContainer: Created LevelActorCluster (46) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y3.Heightmap_x2_y3:PersistentLevel with 1449 objects, 0 referenced clusters and 128 mutable objects.
+[2018.12.02-21.28.41:015][  0]LogLevelActorContainer: Created LevelActorCluster (47) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y4.Heightmap_x2_y4:PersistentLevel with 2797 objects, 0 referenced clusters and 167 mutable objects.
+[2018.12.02-21.28.41:079][  0]LogLevelActorContainer: Created LevelActorCluster (48) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y5.Heightmap_x2_y5:PersistentLevel with 1208 objects, 0 referenced clusters and 108 mutable objects.
+[2018.12.02-21.28.41:091][  0]LogLevelActorContainer: Created LevelActorCluster (49) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y6.Heightmap_x2_y6:PersistentLevel with 482 objects, 0 referenced clusters and 47 mutable objects.
+[2018.12.02-21.28.41:095][  0]LogLevelActorContainer: Created LevelActorCluster (50) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x2_y7.Heightmap_x2_y7:PersistentLevel with 66 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.41:117][  0]LogLevelActorContainer: Created LevelActorCluster (51) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y0.Heightmap_x3_y0:PersistentLevel with 606 objects, 0 referenced clusters and 39 mutable objects.
+[2018.12.02-21.28.41:194][  0]LogLevelActorContainer: Created LevelActorCluster (52) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y1.Heightmap_x3_y1:PersistentLevel with 1779 objects, 0 referenced clusters and 82 mutable objects.
+[2018.12.02-21.28.41:337][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Old_Conan.pak added to pak precacher.
+[2018.12.02-21.28.41:337][  0]LogLevelActorContainer: Created LevelActorCluster (53) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y2.Heightmap_x3_y2:PersistentLevel with 3899 objects, 0 referenced clusters and 122 mutable objects.
+[2018.12.02-21.28.41:444][  0]LogLevelActorContainer: Created LevelActorCluster (54) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y3.Heightmap_x3_y3:PersistentLevel with 2284 objects, 0 referenced clusters and 158 mutable objects.
+[2018.12.02-21.28.41:525][  0]LogLevelActorContainer: Created LevelActorCluster (55) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y4.Heightmap_x3_y4:PersistentLevel with 1394 objects, 0 referenced clusters and 127 mutable objects.
+[2018.12.02-21.28.41:671][  0]LogLevelActorContainer: Created LevelActorCluster (56) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y5.Heightmap_x3_y5:PersistentLevel with 3240 objects, 0 referenced clusters and 195 mutable objects.
+[2018.12.02-21.28.41:744][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Spline-RopesHosesCables.pak added to pak precacher.
+[2018.12.02-21.28.41:744][  0]LogLevelActorContainer: Created LevelActorCluster (57) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y6.Heightmap_x3_y6:PersistentLevel with 1985 objects, 0 referenced clusters and 117 mutable objects.
+[2018.12.02-21.28.41:748][  0]LogLevelActorContainer: Created LevelActorCluster (58) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x3_y7.Heightmap_x3_y7:PersistentLevel with 66 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.41:760][  0]LogLevelActorContainer: Created LevelActorCluster (59) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y0.Heightmap_x4_y0:PersistentLevel with 301 objects, 0 referenced clusters and 37 mutable objects.
+[2018.12.02-21.28.41:840][  0]LogLevelActorContainer: Created LevelActorCluster (60) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y1.Heightmap_x4_y1:PersistentLevel with 1787 objects, 0 referenced clusters and 87 mutable objects.
+[2018.12.02-21.28.41:998][  0]LogLevelActorContainer: Created LevelActorCluster (61) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y2.Heightmap_x4_y2:PersistentLevel with 3208 objects, 0 referenced clusters and 125 mutable objects.
+[2018.12.02-21.28.42:061][  0]LogLevelActorContainer: Created LevelActorCluster (62) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y3.Heightmap_x4_y3:PersistentLevel with 2618 objects, 0 referenced clusters and 123 mutable objects.
+[2018.12.02-21.28.42:088][  0]LogLevelActorContainer: Created LevelActorCluster (63) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y4.Heightmap_x4_y4:PersistentLevel with 718 objects, 0 referenced clusters and 84 mutable objects.
+[2018.12.02-21.28.42:096][  0]LogLevelActorContainer: Created LevelActorCluster (64) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y5.Heightmap_x4_y5:PersistentLevel with 190 objects, 0 referenced clusters and 44 mutable objects.
+[2018.12.02-21.28.42:122][  0]LogLevelActorContainer: Created LevelActorCluster (65) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y6.Heightmap_x4_y6:PersistentLevel with 802 objects, 0 referenced clusters and 76 mutable objects.
+[2018.12.02-21.28.42:127][  0]LogLevelActorContainer: Created LevelActorCluster (66) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x4_y7.Heightmap_x4_y7:PersistentLevel with 66 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.42:134][  0]LogLevelActorContainer: Created LevelActorCluster (67) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y0.Heightmap_x5_y0:PersistentLevel with 149 objects, 0 referenced clusters and 26 mutable objects.
+[2018.12.02-21.28.42:169][  0]LogLevelActorContainer: Created LevelActorCluster (68) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y1.Heightmap_x5_y1:PersistentLevel with 660 objects, 0 referenced clusters and 80 mutable objects.
+[2018.12.02-21.28.42:250][  0]LogLevelActorContainer: Created LevelActorCluster (69) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y2.Heightmap_x5_y2:PersistentLevel with 1369 objects, 0 referenced clusters and 85 mutable objects.
+[2018.12.02-21.28.42:327][  0]LogLevelActorContainer: Created LevelActorCluster (70) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y3.Heightmap_x5_y3:PersistentLevel with 2040 objects, 0 referenced clusters and 116 mutable objects.
+[2018.12.02-21.28.42:335][  0]LogLevelActorContainer: Created LevelActorCluster (71) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y4.Heightmap_x5_y4:PersistentLevel with 168 objects, 0 referenced clusters and 40 mutable objects.
+[2018.12.02-21.28.42:340][  0]LogLevelActorContainer: Created LevelActorCluster (72) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y5.Heightmap_x5_y5:PersistentLevel with 86 objects, 0 referenced clusters and 14 mutable objects.
+[2018.12.02-21.28.42:345][  0]LogLevelActorContainer: Created LevelActorCluster (73) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y6.Heightmap_x5_y6:PersistentLevel with 84 objects, 0 referenced clusters and 13 mutable objects.
+[2018.12.02-21.28.42:349][  0]LogLevelActorContainer: Created LevelActorCluster (74) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x5_y7.Heightmap_x5_y7:PersistentLevel with 84 objects, 0 referenced clusters and 12 mutable objects.
+[2018.12.02-21.28.42:353][  0]LogLevelActorContainer: Created LevelActorCluster (75) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y0.Heightmap_x6_y0:PersistentLevel with 66 objects, 0 referenced clusters and 18 mutable objects.
+[2018.12.02-21.28.42:379][  0]LogLevelActorContainer: Created LevelActorCluster (76) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y1.Heightmap_x6_y1:PersistentLevel with 680 objects, 0 referenced clusters and 63 mutable objects.
+[2018.12.02-21.28.42:514][  0]LogLevelActorContainer: Created LevelActorCluster (77) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y2.Heightmap_x6_y2:PersistentLevel with 2128 objects, 0 referenced clusters and 129 mutable objects.
+[2018.12.02-21.28.42:567][  0]LogLevelActorContainer: Created LevelActorCluster (78) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y3.Heightmap_x6_y3:PersistentLevel with 1928 objects, 0 referenced clusters and 99 mutable objects.
+[2018.12.02-21.28.42:571][  0]LogLevelActorContainer: Created LevelActorCluster (79) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y4.Heightmap_x6_y4:PersistentLevel with 68 objects, 0 referenced clusters and 9 mutable objects.
+[2018.12.02-21.28.42:574][  0]LogLevelActorContainer: Created LevelActorCluster (80) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y5.Heightmap_x6_y5:PersistentLevel with 66 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.42:579][  0]LogLevelActorContainer: Created LevelActorCluster (81) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y6.Heightmap_x6_y6:PersistentLevel with 66 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.42:582][  0]LogLevelActorContainer: Created LevelActorCluster (82) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x6_y7.Heightmap_x6_y7:PersistentLevel with 66 objects, 0 referenced clusters and 5 mutable objects.
+[2018.12.02-21.28.42:586][  0]LogLevelActorContainer: Created LevelActorCluster (83) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y0.Heightmap_x7_y0:PersistentLevel with 66 objects, 0 referenced clusters and 7 mutable objects.
+[2018.12.02-21.28.42:596][  0]LogLevelActorContainer: Created LevelActorCluster (84) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y1.Heightmap_x7_y1:PersistentLevel with 190 objects, 0 referenced clusters and 29 mutable objects.
+[2018.12.02-21.28.42:729][  0]LogLevelActorContainer: Created LevelActorCluster (85) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y2.Heightmap_x7_y2:PersistentLevel with 1900 objects, 0 referenced clusters and 128 mutable objects.
+[2018.12.02-21.28.42:804][  0]LogLevelActorContainer: Created LevelActorCluster (86) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y3.Heightmap_x7_y3:PersistentLevel with 1586 objects, 0 referenced clusters and 67 mutable objects.
+[2018.12.02-21.28.42:813][  0]LogLevelActorContainer: Created LevelActorCluster (87) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y4.Heightmap_x7_y4:PersistentLevel with 90 objects, 0 referenced clusters and 9 mutable objects.
+[2018.12.02-21.28.42:817][  0]LogLevelActorContainer: Created LevelActorCluster (88) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y5.Heightmap_x7_y5:PersistentLevel with 66 objects, 0 referenced clusters and 9 mutable objects.
+[2018.12.02-21.28.42:821][  0]LogLevelActorContainer: Created LevelActorCluster (89) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y6.Heightmap_x7_y6:PersistentLevel with 66 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.43:001][  0]LogLevelActorContainer: Created LevelActorCluster (90) for /Game/Maps/ConanSandbox/Art/Heightmap/Heightmap_x7_y7.Heightmap_x7_y7:PersistentLevel with 7202 objects, 0 referenced clusters and 115 mutable objects.
+[2018.12.02-21.28.44:804][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_materials.pak added to pak precacher.
+[2018.12.02-21.28.44:804][  0]LogLevelActorContainer: Created LevelActorCluster (91) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Emotes.Gameplay_Emotes:PersistentLevel with 160 objects, 0 referenced clusters and 33 mutable objects.
+[2018.12.02-21.28.44:908][  0]LogLevelActorContainer: Created LevelActorCluster (92) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_Center.Gameplay_NPCs_Desert_Center:PersistentLevel with 270 objects, 0 referenced clusters and 13 mutable objects.
+[2018.12.02-21.28.44:979][  0]LogLevelActorContainer: Created LevelActorCluster (93) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_East.Gameplay_NPCs_Desert_East:PersistentLevel with 72 objects, 0 referenced clusters and 6 mutable objects.
+[2018.12.02-21.28.45:021][  0]LogLevelActorContainer: Created LevelActorCluster (94) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_EastWest.Gameplay_NPCs_Desert_EastWest:PersistentLevel with 26 objects, 0 referenced clusters and 5 mutable objects.
+[2018.12.02-21.28.45:028][  0]LogLevelActorContainer: Created LevelActorCluster (95) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_North.Gameplay_NPCs_Desert_North:PersistentLevel with 14 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.45:068][  0]LogLevelActorContainer: Created LevelActorCluster (96) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_SouthEast.Gameplay_NPCs_Desert_SouthEast:PersistentLevel with 30 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.45:074][  0]LogLevelActorContainer: Created LevelActorCluster (97) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_SouthWest.Gameplay_NPCs_Desert_SouthWest:PersistentLevel with 36 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.45:125][  0]LogLevelActorContainer: Created LevelActorCluster (98) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_UnnamedCity.Gameplay_NPCs_Desert_UnnamedCity:PersistentLevel with 36 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.45:137][  0]LogLevelActorContainer: Created LevelActorCluster (99) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Desert_West.Gameplay_NPCs_Desert_West:PersistentLevel with 84 objects, 0 referenced clusters and 12 mutable objects.
+[2018.12.02-21.28.45:178][  0]LogLevelActorContainer: Created LevelActorCluster (100) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_East.Gameplay_NPCs_Swamp_East:PersistentLevel with 8 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.45:194][  0]LogLevelActorContainer: Created LevelActorCluster (101) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_North.Gameplay_NPCs_Swamp_North:PersistentLevel with 94 objects, 0 referenced clusters and 18 mutable objects.
+[2018.12.02-21.28.45:201][  0]LogLevelActorContainer: Created LevelActorCluster (102) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_NPCs_Swamp_West.Gameplay_NPCs_Swamp_West:PersistentLevel with 18 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.45:246][  0]LogLevelActorContainer: Created LevelActorCluster (103) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_South.Gameplay_Prototype_South:PersistentLevel with 84 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.45:257][  0]LogLevelActorContainer: Created LevelActorCluster (104) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_SouthEast.Gameplay_Prototype_SouthEast:PersistentLevel with 50 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.45:260][  0]LogLevelActorContainer: Created LevelActorCluster (105) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_SouthOfRiverEast.Gameplay_Prototype_SouthOfRiverEast:PersistentLevel with 44 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.45:263][  0]LogLevelActorContainer: Created LevelActorCluster (106) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_Prototype_SouthOfRiverWest.Gameplay_Prototype_SouthOfRiverWest:PersistentLevel with 26 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.45:282][  0]LogLevelActorContainer: Created LevelActorCluster (107) for /Game/Maps/ConanSandbox/Gameplay/Gameplay_StartingExperience.Gameplay_StartingExperience:PersistentLevel with 76 objects, 0 referenced clusters and 11 mutable objects.
+[2018.12.02-21.28.45:365][  0]LogLevelActorContainer: Created LevelActorCluster (108) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x1_y3-3.Camps-NPC_x1_y3-3:PersistentLevel with 38 objects, 0 referenced clusters and 7 mutable objects.
+[2018.12.02-21.28.45:440][  0]LogLevelActorContainer: Created LevelActorCluster (109) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x3_y3-2.Camps-NPC_x3_y3-2:PersistentLevel with 28 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.45:710][  0]LogLevelActorContainer: Created LevelActorCluster (110) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x4_y3-2.Camps-NPC_x4_y3-2:PersistentLevel with 10 objects, 0 referenced clusters and 6 mutable objects.
+[2018.12.02-21.28.45:763][  0]LogLevelActorContainer: Created LevelActorCluster (111) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps-NPC_x6_y2-2.Camps-NPC_x6_y2-2:PersistentLevel with 126 objects, 0 referenced clusters and 26 mutable objects.
+[2018.12.02-21.28.45:824][  0]LogLevelActorContainer: Created LevelActorCluster (112) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x1_y3.Camps_NPC_x1_y3:PersistentLevel with 96 objects, 0 referenced clusters and 14 mutable objects.
+[2018.12.02-21.28.45:879][  0]LogLevelActorContainer: Created LevelActorCluster (113) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x1_y5-2.Camps_NPC_x1_y5-2:PersistentLevel with 34 objects, 0 referenced clusters and 12 mutable objects.
+[2018.12.02-21.28.45:884][  0]LogLevelActorContainer: Created LevelActorCluster (114) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x1_y5-3.Camps_NPC_x1_y5-3:PersistentLevel with 14 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.45:932][  0]LogLevelActorContainer: Created LevelActorCluster (115) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x1_y5-5.Camps_NPC_x1_y5-5:PersistentLevel with 12 objects, 0 referenced clusters and 6 mutable objects.
+[2018.12.02-21.28.45:936][  0]LogLevelActorContainer: Created LevelActorCluster (116) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x1_y5_KingBeneath.Camps_NPC_x1_y5_KingBeneath:PersistentLevel with 10 objects, 0 referenced clusters and 6 mutable objects.
+[2018.12.02-21.28.46:225][  0]LogLevelActorContainer: Created LevelActorCluster (117) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x4_y2.Camps_NPC_x4_y2:PersistentLevel with 22 objects, 0 referenced clusters and 8 mutable objects.
+[2018.12.02-21.28.46:282][  0]LogLevelActorContainer: Created LevelActorCluster (118) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x4_y3.Camps_NPC_x4_y3:PersistentLevel with 6 objects, 0 referenced clusters and 4 mutable objects.
+[2018.12.02-21.28.46:326][  0]LogLevelActorContainer: Created LevelActorCluster (119) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x4_y4.Camps_NPC_x4_y4:PersistentLevel with 52 objects, 0 referenced clusters and 2 mutable objects.
+[2018.12.02-21.28.46:388][  0]LogLevelActorContainer: Created LevelActorCluster (120) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x5_y3-2.Camps_NPC_x5_y3-2:PersistentLevel with 212 objects, 0 referenced clusters and 25 mutable objects.
+[2018.12.02-21.28.46:437][  0]LogLevelActorContainer: Created LevelActorCluster (121) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x6_y2.Camps_NPC_x6_y2:PersistentLevel with 68 objects, 0 referenced clusters and 21 mutable objects.
+[2018.12.02-21.28.46:479][  0]LogLevelActorContainer: Created LevelActorCluster (122) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x6_y3.Camps_NPC_x6_y3:PersistentLevel with 140 objects, 0 referenced clusters and 27 mutable objects.
+[2018.12.02-21.28.46:514][  0]LogLevelActorContainer: Created LevelActorCluster (123) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x7_y2.Camps_NPC_x7_y2:PersistentLevel with 90 objects, 0 referenced clusters and 23 mutable objects.
+[2018.12.02-21.28.46:575][  0]LogLevelActorContainer: Created LevelActorCluster (124) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Camps_NPC_x7_y3.Camps_NPC_x7_y3:PersistentLevel with 80 objects, 0 referenced clusters and 13 mutable objects.
+[2018.12.02-21.28.46:627][  0]LogLevelActorContainer: Created LevelActorCluster (125) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Gameplay_NPC_Highlands_West.Gameplay_NPC_Highlands_West:PersistentLevel with 8 objects, 0 referenced clusters and 3 mutable objects.
+[2018.12.02-21.28.46:633][  0]LogLevelActorContainer: Created LevelActorCluster (126) for /Game/Maps/ConanSandbox/Gameplay/Camps_NPC/Gameplay_NPCs_Highlands_East.Gameplay_NPCs_Highlands_East:PersistentLevel with 16 objects, 0 referenced clusters and 3 mutable objects.
+[2018.12.02-21.28.46:685][  0]LogEngine: BlockTillLevelStreamingCompleted: 0
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Upgrading C++ serversettings from version 2 to version 10...
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'ValidatePhysNavWalkWithRaycast'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'true'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'true'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'PathFollowingSendsAngularVelocity'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'UseLocalQuadraticAngularVelocityPrediction'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'UseLocalQuadraticAngularVelocityPrediction'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'false'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'NPCMindReadingMode'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'None'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'None'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'LQAVPMethod'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: 'BrokenAbsolute'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: 'BrokenAbsolute'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'CoopTetheringLimit'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '52000.0'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '52000.0'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'CoopTetheringLimit'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '52000.0'
+[2018.12.02-21.28.46:685][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '52000.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Upgrading BP serversettings from version 1 to version 19.
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Warning: Code: [BP_ServerSettings_C_2] Failed resetting server setting to default: 'RotateToTargetSendsAngularVelocity'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'WeaponEffectBoundsShorteningFraction'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '0.2'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '0.2'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Warning: Code: [BP_ServerSettings_C_2] Failed resetting server setting to default: 'PathFollowingAvoidanceMode'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Warning: Code: [BP_ServerSettings_C_2] Failed resetting server setting to default: 'TargetPredictionMaxSeconds'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Warning: Code: [BP_ServerSettings_C_2] Failed resetting server setting to default: 'TargetPredictionAllowSecondsForAttack'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Warning: Code: [BP_ServerSettings_C_2] Failed resetting server setting to default: 'RotateToTargetSendsAngularVelocity'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaExhaustionTime'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '3.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '3.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaRegenerationTime'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '3.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '3.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaMovingRegenRateMultiplier'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaStaticRegenRateMultiplier'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'PlayerStaminaRegenSpeedScale'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'PlayerStaminaCostMultiplier'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'PlayerStaminaCostSprintMultiplier'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'PlayerStaminaMultiplier'
+[2018.12.02-21.28.46:686][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaCostMultiplier'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.0'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.0'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaOnConsumeRegenPause'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.5'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.5'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'FriendlyFireDamageMultiplier'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '0.25'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '0.25'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'DodgeStaminaCost'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '3.75'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '3.75'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaOnConsumeRegenPause'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '1.5'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '1.5'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2] Resetting server setting to default: 'StaminaOnExhaustionRegenPause'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - Before: '2.75'
+[2018.12.02-21.28.46:687][  0]GlobalServerChannel:Display: [BP_ServerSettings_C_2]   - After: '2.75'
+[2018.12.02-21.28.46:689][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.28.46:690][  0]GlobalServerChannel:Display: Saving ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.28.46:714][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.28.46:715][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/ConanSandbox/Saved//blacklist.txt does not exist
+[2018.12.02-21.28.46:715][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Whitelist file I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/ConanSandbox/Saved//whitelist.txt does not exist
+[2018.12.02-21.28.46:715][  0]Audio:Display: [ConanSandbox_C_0] Not loading environment audio level: Dedicated server.
+[2018.12.02-21.28.46:847][  0]Items:Error: Data: [BP_interactable_clientside_352] missing lore item in table: 0
+[2018.12.02-21.28.46:848][  0]Items:Error: Data: [BP_Emote_Worship_Mitra] missing lore item in table: 0
+[2018.12.02-21.28.46:848][  0]Items:Error: Data: [BP_Emote_Worship_Set] missing lore item in table: 0
+[2018.12.02-21.28.46:848][  0]Items:Error: Data: [BP_Emote_Worship_Yog] missing lore item in table: 0
+[2018.12.02-21.28.46:848][  0]Items:Error: Data: [Teach_Skulltaker_feat] missing lore item in table: 0
+[2018.12.02-21.28.46:848][  0]Items:Error: Data: [BP_Emote_ByYmir] missing lore item in table: 0
+[2018.12.02-21.28.46:849][  0]Items:Error: Data: [BP_interactable_clientside7_357] missing lore item in table: 0
+[2018.12.02-21.28.46:850][  0]Items:Error: Data: [BP_interactable_clientside_342] missing lore item in table: 0
+[2018.12.02-21.28.46:851][  0]Items:Error: Data: [Feat_RelicHunterBanners] missing lore item in table: 0
+[2018.12.02-21.28.46:851][  0]Items:Error: Data: [Feat_DogsBanners] missing lore item in table: 0
+[2018.12.02-21.28.46:851][  0]Items:Error: Data: [Feat_BlackHandBanners] missing lore item in table: 0
+[2018.12.02-21.28.46:851][  0]Items:Error: Data: [Feat_BlackHandBanners2] missing lore item in table: 0
+[2018.12.02-21.28.46:851][  0]Items:Error: Data: [BP_interactable_clientside_352] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside2_332] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside_707] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [Feat_Darfari_Banners] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside_347] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside_367] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside_567] missing lore item in table: 0
+[2018.12.02-21.28.46:852][  0]Items:Error: Data: [BP_interactable_clientside_227] missing lore item in table: 0
+[2018.12.02-21.28.46:853][  0]Items:Error: Data: [BP_interactable_key_chest_217] missing lore item in table: 0
+[2018.12.02-21.28.46:922][  0]Persistence:Display: WorldPersistence: Loading 0 actors
+[2018.12.02-21.28.46:922][  0]Persistence:Display: WorldPersistence: Finished loading actors
+[2018.12.02-21.28.46:944][  0]LogMemory:Display: Entered application state 'WorldPersistenceDone'.
+[2018.12.02-21.28.46:995][  0]Persistence:Display: WorldPersistence: Found 0 alive characters
+[2018.12.02-21.28.46:995][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.02-21.28.47:005][  0]LogLoad: Took 10.334221 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2018.12.02-21.28.47:006][  0]LogLoad: (Engine Initialization) Total time: 20.83 seconds
+[2018.12.02-21.28.47:006][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.12.02-21.28.47:049][  0]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.03, Realtime: 8.37. SteamNetDriver_0
+[2018.12.02-21.28.47:124][  1]LogNetVersion: GetLocalNetworkVersion: CL: 112176, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 326402640
+[2018.12.02-21.28.47:124][  1]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 919621175
+[2018.12.02-21.28.47:124][  1]LogServerStats: Starting ServerStatReporter (Official server: 0)
+[2018.12.02-21.28.47:128][  1]LogServerStats: Sending report: exiles-startup?mac=00ff6b86739c&revision=112258&snapshot=20023&qport=0&slots=40&=0&=1&startup_time=20&name=Conan%20Exiles%20Server&platform=Win64Server&is_official=0&ipv4=10.0.0.19&sport=7777
+[2018.12.02-21.28.47:139][  1]Network:Display: Network usage last 16795036.00 seconds
+[2018.12.02-21.28.47:139][  1]Network:Display: out bytes min;out bytes max;out bytes avg;out bytes total;out parts min;out parts max;out parts avg;out parts total;in bytes min;in bytes max;in bytes avg;in bytes total;actor
+[2018.12.02-21.28.47:449][  2]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PlaceableItemContainer_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PlaceableItemContainer.BP_PlaceableItemContainer_C
+[2018.12.02-21.28.47:449][  2]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Crafting_Station_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Crafting_Station.BP_PL_Crafting_Station_C
+[2018.12.02-21.28.47:492][  3]Persistence: UConanBuildingPersistenceComponent::CreateHealthPool - Could not find a health entry for instance_id -1, object_id 0:6.
+[2018.12.02-21.28.47:493][  3]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory PlaceableInventory from actor BP_PL_Volcanic_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:493][  3]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingQueue from actor BP_PL_Volcanic_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:493][  3]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingIngredientsInventory from actor BP_PL_Volcanic_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:518][  4]Persistence: UConanBuildingPersistenceComponent::CreateHealthPool - Could not find a health entry for instance_id -1, object_id 0:7.
+[2018.12.02-21.28.47:519][  4]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory PlaceableInventory from actor BP_PL_Frost_Temple_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:519][  4]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingQueue from actor BP_PL_Frost_Temple_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:519][  4]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingIngredientsInventory from actor BP_PL_Frost_Temple_Forge_C_0 before it was done loading.
+[2018.12.02-21.28.47:550][  5]Persistence: UConanBuildingPersistenceComponent::CreateHealthPool - Could not find a health entry for instance_id -1, object_id 0:8.
+[2018.12.02-21.28.47:552][  5]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory PlaceableInventory from actor BP_Storymission_ChaosmouthAltar_C_0 before it was done loading.
+[2018.12.02-21.28.47:583][  6]Persistence: UConanBuildingPersistenceComponent::CreateHealthPool - Could not find a health entry for instance_id -1, object_id 0:9.
+[2018.12.02-21.28.47:584][  6]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory PlaceableInventory from actor BP_Storymission_BatTower_C_0 before it was done loading.
+[2018.12.02-21.28.47:584][  6]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingQueue from actor BP_Storymission_BatTower_C_0 before it was done loading.
+[2018.12.02-21.28.47:584][  6]ItemInventory:Warning: Code: ERROR: UItemInventory::Save() attempt to save inventory CraftingIngredientsInventory from actor BP_Storymission_BatTower_C_0 before it was done loading.
+[2018.12.02-21.29.16:576][867]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.12.02-21.29.16:587][868]LogStreaming:Display: Suspending async loading (1)
+[2018.12.02-21.29.16:597][868]LogStreaming:Display: Resuming async loading (0)
+[2018.12.02-21.29.16:598][868]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2018.12.02-21.29.16:598][868]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2018.12.02-21.29.16:598][868]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2018.12.02-21.29.16:633][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:633][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:633][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:633][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:633][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:633][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:633][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:634][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:634][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:634][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:634][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:634][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:634][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:635][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:635][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:635][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:635][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:635][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:635][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:635][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:635][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:635][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:635][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:636][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:636][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:636][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:636][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:636][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:636][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:636][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:636][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:636][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:636][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:637][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:637][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.16:638][868]NPC:Error: Code: UNpcSpawnerComponent::Despawned - Invalid spawn entry supplied, Type: 1, Index: 0
+[2018.12.02-21.29.16:638][868]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NPCs of length 0!
+[2018.12.02-21.29.17:024][868]LogExit: Preparing to exit.
+[2018.12.02-21.29.17:371][868]LogExit: Game engine shut down
+[2018.12.02-21.29.17:751][868]LogExit: Object subsystem successfully closed.
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module AutomationController (135)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module AutomationWorker (133)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module AIModule (131)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (129)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module MfMediaFactory (127)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (125)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (123)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Media (122)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module CharacterAI (119)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module SessionServices (117)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module GeometryCache (115)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Niagara (113)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (111)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module RconPlugin (109)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (107)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Ansel (105)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (103)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (101)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (99)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module ExternalDirectory (95)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Rejoin (93)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Hotfix (91)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Lobby (89)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Party (87)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Qos (85)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module HTML5Networking (83)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module ConanSandbox (81)
+[2018.12.02-21.29.17:810][868]LogMemory:Display: Entered application state 'ConanSandboxStopped'.
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module DialoguePlugin (78)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module PhysXVehicles (76)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (74)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module CableComponent (72)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module UdpMessaging (70)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module TcpMessaging (68)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module FacialAnimation (66)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (64)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module Paper2D (62)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (60)
+[2018.12.02-21.29.17:810][868]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2018.12.02-21.29.17:835][868]LogModuleManager: Shutting down and abandoning module MfMedia (56)
+[2018.12.02-21.29.17:835][868]LogModuleManager: Shutting down and abandoning module Messaging (54)
+[2018.12.02-21.29.17:835][868]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2018.12.02-21.29.17:835][868]LogModuleManager: Shutting down and abandoning module Core (50)
+[2018.12.02-21.29.17:835][868]LogModuleManager: Shutting down and abandoning module UE4Dreamworld (48)
+[2018.12.02-21.29.17:844][868]LogModuleManager: Shutting down and abandoning module AssetRegistry (46)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module NullDrv (44)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module DreamworldMods (42)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module DreamworldPreInit (40)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module NVIDIAGfeSDK (38)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (36)
+[2018.12.02-21.29.17:872][868]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (32)
+[2018.12.02-21.29.17:872][868]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.12.02-21.29.17:941][868]LogOnline:Display: Unloading online subsystem: Steam
+[2018.12.02-21.29.17:941][868]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.12.02-21.29.17:943][868]LogOnline:Display: Unloading online subsystem: NULL
+[2018.12.02-21.29.17:943][868]LogModuleManager: Shutting down and abandoning module HTTP (27)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module ShaderCore (24)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module Landscape (22)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.02-21.29.17:970][868]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.02-21.29.17:971][868]LogExit: Exiting.
+[2018.12.02-21.29.17:974][868]Log file closed, 12/02/18 15:29:17

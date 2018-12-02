@@ -1,0 +1,447 @@
+﻿Log file open, 12/02/18 15:59:37
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogTemp: Using NVIDIAGfeSDKPlugin version 1.0.0
+LogModManager: Starting mod runtime module.
+LogInit: Build: ue415-dw-Stable-osl-CL-112176.0
+LogInit: Engine Version: 4.15.3-112176+ue415-dw-Stable-osl
+LogInit: Compatible Engine Version: 4.15.0-112176+ue415-dw-Stable-osl
+LogInit: Net CL: 112176
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 15
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Nov 12 2018 21:41:36
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue415-dw-Stable-osl
+LogInit: Command line: -log -MULTIHOME=10.0.0.x -nosteam
+LogInit: Base directory: I:/SteamLibrary/steamapps/common/Conan Exiles Dedicated Server/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Nativized: No
+LogInit: Presizing for max 8388607 objects, including 42000 objects not considered by GC, pre-allocating 8388608 bytes for permanent pool.
+LogStreaming:Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: true
+LogInit: Object subsystem initialized
+[2018.12.02-21.59.37:276][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2018.12.02-21.59.37:276][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2018.12.02-21.59.37:305][  0]LogInit: Computer: FUGEN7-2
+[2018.12.02-21.59.37:305][  0]LogInit: User: fugensnot
+[2018.12.02-21.59.37:306][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.12.02-21.59.37:306][  0]LogInit: High frequency timer resolution =3.117412 MHz
+[2018.12.02-21.59.37:307][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.02-21.59.37:307][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2018.12.02-21.59.37:307][  0]LogMemory: Process Physical Memory: 272.14 MB used, 272.14 MB peak
+[2018.12.02-21.59.37:308][  0]LogMemory: Process Virtual Memory: 304.92 MB used, 304.92 MB peak
+[2018.12.02-21.59.37:308][  0]LogMemory: Physical Memory: 5352.77 MB used,  10948.87 MB free, 16301.64 MB total
+[2018.12.02-21.59.37:308][  0]LogMemory: Virtual Memory: 476.20 MB used,  10948.87 MB free, 8388608.00 MB total
+[2018.12.02-21.59.37:464][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2018.12.02-21.59.37:978][  0]LogAssetRegistry: FAssetRegistry took 0.3110 seconds to start up
+[2018.12.02-21.59.38:073][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2018.12.02-21.59.38:073][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2018.12.02-21.59.38:074][  0]Dreamworld:Display: Dreamworld platform: x64
+[2018.12.02-21.59.38:074][  0]Dreamworld:Display: Dreamworld revision: 112258
+[2018.12.02-21.59.38:074][  0]Dreamworld:Display: Dreamworld snapshot: 20023
+[2018.12.02-21.59.38:075][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Stable
+[2018.12.02-21.59.38:075][  0]Dreamworld:Display: Platform (.ini): <unknown>
+[2018.12.02-21.59.38:075][  0]Dreamworld:Display: Platform: WindowsServer
+[2018.12.02-21.59.38:075][  0]Dreamworld:Display: .ini sub-platform prefix: <not specified>
+[2018.12.02-21.59.38:088][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.004865 seconds
+[2018.12.02-21.59.38:089][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2018.12.02-21.59.38:090][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Sound.pak added to pak precacher.
+[2018.12.02-21.59.38:129][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/UI.pak added to pak precacher.
+[2018.12.02-21.59.38:165][  0]LogNetVersion: GetLocalNetworkVersion: CL: 112176, ProjectName: conansandbox, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2005551844
+[2018.12.02-21.59.38:165][  0]LogNetVersion: GetLocalNetworkVersionOverride: NetworkChecksum: 919621175
+[2018.12.02-21.59.38:180][  0]LogUObjectArray: 43478 objects as part of root set at end of initial load.
+[2018.12.02-21.59.38:180][  0]LogUObjectAllocator:Warning: 8435792 Exceeds size of permanent object pool 8388608, please tune SizeOfPermanentObjectPool.
+[2018.12.02-21.59.38:182][  0]LogUObjectArray: CloseDisregardForGC: 43478/0 objects in disregard for GC pool
+[2018.12.02-21.59.38:213][  0]UserSettings:Display: User's IP Country Code is --
+[2018.12.02-21.59.38:221][  0]LogMemory:Display: Entered application state 'ConanSandboxStarting'.
+[2018.12.02-21.59.38:221][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2018.12.02-21.59.38:222][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+[2018.12.02-21.59.38:298][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.12.02-21.59.38:309][  0]LogRcon:Display: Rcon disabled.
+[2018.12.02-21.59.38:309][  0]LogModManager: Searching for mod/dlc controllers.
+[2018.12.02-21.59.39:055][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Pict.pak added to pak precacher.
+[2018.12.02-21.59.39:055][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Systems.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Items.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Characters.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Environment.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Base.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Effects.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Cinematics.pak added to pak precacher.
+[2018.12.02-21.59.39:056][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildingBase_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildingBase.BP_BuildingBase_C
+[2018.12.02-21.59.39:057][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T2_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwning_T2.BP_BuildAwning_T2_C
+[2018.12.02-21.59.39:057][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwning_T3.BP_BuildAwning_T3_C
+[2018.12.02-21.59.39:058][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildAwning_T3_Pict.BP_BuildAwning_T3_Pict_C
+[2018.12.02-21.59.39:063][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildAwningCorner_T3.BP_BuildAwningCorner_T3_C
+[2018.12.02-21.59.39:065][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildAwningCorner_T3_Pict.BP_BuildAwningCorner_T3_Pict_C
+[2018.12.02-21.59.39:090][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Aquilonia.pak added to pak precacher.
+[2018.12.02-21.59.39:090][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs.BP_BuildStairs_C
+[2018.12.02-21.59.39:091][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildPillar.BP_BuildPillar_C
+[2018.12.02-21.59.39:091][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_V2_Trebuchet_Foundation_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/Trebuchet/Trebuchet_V2/BP_V2_Trebuchet_Foundation.BP_V2_Trebuchet_Foundation_C
+[2018.12.02-21.59.39:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCeiling.BP_BuildCeiling_C
+[2018.12.02-21.59.39:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCeiling_T3.BP_BuildCeiling_T3_C
+[2018.12.02-21.59.39:093][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildCeiling_T3_Pict.BP_BuildCeiling_T3_Pict_C
+[2018.12.02-21.59.39:107][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildCrenelatedWall.BP_BuildCrenelatedWall_C
+[2018.12.02-21.59.39:108][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildCrenelatedWall_Pict.BP_BuildCrenelatedWall_Pict_C
+[2018.12.02-21.59.39:112][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoor.BP_BuildDoor_C
+[2018.12.02-21.59.39:113][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoor_T3.BP_BuildDoor_T3_C
+[2018.12.02-21.59.39:113][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildDoor_T3_Pict.BP_BuildDoor_T3_Pict_C
+[2018.12.02-21.59.39:214][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Master_AnimBP.pak added to pak precacher.
+[2018.12.02-21.59.39:214][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_Master_Placeables_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_Master_Placeables.BP_Master_Placeables_C
+[2018.12.02-21.59.39:214][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Door_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Door.BP_PL_Door_C
+[2018.12.02-21.59.39:215][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoorFrame.BP_BuildDoorFrame_C
+[2018.12.02-21.59.39:215][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildDoorFrame_T3.BP_BuildDoorFrame_T3_C
+[2018.12.02-21.59.39:216][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildDoorFrame_T3_Pict.BP_BuildDoorFrame_T3_Pict_C
+[2018.12.02-21.59.39:224][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFence.BP_BuildFence_C
+[2018.12.02-21.59.39:224][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFence_T3.BP_BuildFence_T3_C
+[2018.12.02-21.59.39:224][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildFence_T3_Pict.BP_BuildFence_T3_Pict_C
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Marketplace.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Tools.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Maps.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Dev.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/Chameleon.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/100+crosshairspack.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WastelandRocks.pak added to pak precacher.
+[2018.12.02-21.59.40:563][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well.BP_PL_Water_Well_C
+[2018.12.02-21.59.40:564][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_Tier2_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well_Tier2.BP_PL_Water_Well_Tier2_C
+[2018.12.02-21.59.40:565][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Water_Well_Large_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Water_Well_Large.BP_PL_Water_Well_Large_C
+[2018.12.02-21.59.40:569][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor.BP_PL_GateDoor_C
+[2018.12.02-21.59.40:576][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Maproom_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/Maproom/BP_PL_Maproom.BP_PL_Maproom_C
+[2018.12.02-21.59.40:577][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_RespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_RespawnPoint.BP_PL_RespawnPoint_C
+[2018.12.02-21.59.40:577][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chair_Master.BP_PL_Chair_Master_C
+[2018.12.02-21.59.40:583][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PlaceableItemContainer_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PlaceableItemContainer.BP_PlaceableItemContainer_C
+[2018.12.02-21.59.40:583][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Crafting_Station_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Crafting_Station.BP_PL_Crafting_Station_C
+[2018.12.02-21.59.40:584][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Altar_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Altar.BP_PL_Altar_C
+[2018.12.02-21.59.40:584][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chest_Vault_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chest_Vault.BP_PL_Chest_Vault_C
+[2018.12.02-21.59.40:585][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_CraftingStation_ThrallConverter_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_CraftingStation_ThrallConverter.BP_PL_CraftingStation_ThrallConverter_C
+[2018.12.02-21.59.40:585][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFoundation.BP_BuildFoundation_C
+[2018.12.02-21.59.40:586][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildFoundation_T3.BP_BuildFoundation_T3_C
+[2018.12.02-21.59.40:587][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildFoundation_T3_Pict.BP_BuildFoundation_T3_Pict_C
+[2018.12.02-21.59.40:649][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_FenceFoundation.BP_FenceFoundation_C
+[2018.12.02-21.59.40:650][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangleFoundation.BP_BuildTriangleFoundation_C
+[2018.12.02-21.59.40:651][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildGateFrame.BP_BuildGateFrame_C
+[2018.12.02-21.59.40:651][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildGateFrame_T3.BP_BuildGateFrame_T3_C
+[2018.12.02-21.59.40:652][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildGateFrame_T3_Pict.BP_BuildGateFrame_T3_Pict_C
+[2018.12.02-21.59.40:658][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildPillar_T3.BP_BuildPillar_T3_C
+[2018.12.02-21.59.40:658][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildPillar_T3_Pict.BP_BuildPillar_T3_Pict_C
+[2018.12.02-21.59.40:670][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped.BP_BuildRoof_Sloped_C
+[2018.12.02-21.59.40:671][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRamp_90degree_HL_T3.BP_BuildRamp_90degree_HL_T3_C
+[2018.12.02-21.59.40:671][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRamp_90degree_HL_T3_Pict.BP_BuildRamp_90degree_HL_T3_Pict_C
+[2018.12.02-21.59.40:677][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRamp_T3.BP_BuildRamp_T3_C
+[2018.12.02-21.59.40:677][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRamp_T3_Pict.BP_BuildRamp_T3_Pict_C
+[2018.12.02-21.59.40:683][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_90degree_Inverted_T3.BP_BuildRoof_90degree_Inverted_T3_C
+[2018.12.02-21.59.40:683][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Pict.BP_BuildRoof_90degree_Inverted_T3_Pict_C
+[2018.12.02-21.59.40:688][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_90degree_T3.BP_BuildRoof_90degree_T3_C
+[2018.12.02-21.59.40:689][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_90degree_T3_Pict.BP_BuildRoof_90degree_T3_Pict_C
+[2018.12.02-21.59.40:694][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_T3.BP_BuildRoof_Sloped_T3_C
+[2018.12.02-21.59.40:694][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_T3_Pict.BP_BuildRoof_Sloped_T3_Pict_C
+[2018.12.02-21.59.40:701][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_Flipped.BP_BuildRoof_Sloped_Triangle_Flipped_C
+[2018.12.02-21.59.40:702][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_Flipped_T3.BP_BuildRoof_Sloped_Triangle_Flipped_T3_C
+[2018.12.02-21.59.40:702][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Pict_C
+[2018.12.02-21.59.40:708][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle.BP_BuildRoof_Sloped_Triangle_C
+[2018.12.02-21.59.40:709][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRoof_Sloped_Triangle_T3.BP_BuildRoof_Sloped_Triangle_T3_C
+[2018.12.02-21.59.40:710][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Pict.BP_BuildRoof_Sloped_Triangle_T3_Pict_C
+[2018.12.02-21.59.40:715][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_end_T3.BP_BuildRooftop_end_T3_C
+[2018.12.02-21.59.40:716][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_end_T3_Pict.BP_BuildRooftop_end_T3_Pict_C
+[2018.12.02-21.59.40:721][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionL_T3.BP_BuildRooftop_junctionL_T3_C
+[2018.12.02-21.59.40:721][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionL_T3_Pict.BP_BuildRooftop_junctionL_T3_Pict_C
+[2018.12.02-21.59.40:726][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionT_T3.BP_BuildRooftop_junctionT_T3_C
+[2018.12.02-21.59.40:727][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionT_T3_Pict.BP_BuildRooftop_junctionT_T3_Pict_C
+[2018.12.02-21.59.40:733][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_junctionX_T3.BP_BuildRooftop_junctionX_T3_C
+[2018.12.02-21.59.40:733][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_junctionX_T3_Pict.BP_BuildRooftop_junctionX_T3_Pict_C
+[2018.12.02-21.59.40:739][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_pyramidtop_T3.BP_BuildRooftop_pyramidtop_T3_C
+[2018.12.02-21.59.40:740][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_pyramidtop_T3_Pict.BP_BuildRooftop_pyramidtop_T3_Pict_C
+[2018.12.02-21.59.40:744][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildRooftop_straight_T3.BP_BuildRooftop_straight_T3_C
+[2018.12.02-21.59.40:746][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildRooftop_straight_T3_Pict.BP_BuildRooftop_straight_T3_Pict_C
+[2018.12.02-21.59.40:752][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_Corner_T3.BP_BuildStairs_Corner_T3_C
+[2018.12.02-21.59.40:752][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_Corner_T3_Pict.BP_BuildStairs_Corner_T3_Pict_C
+[2018.12.02-21.59.40:759][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_T3_Clean.BP_BuildStairs_T3_Clean_C
+[2018.12.02-21.59.40:759][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_T3_Clean_Pict.BP_BuildStairs_T3_Clean_Pict_C
+[2018.12.02-21.59.40:765][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildStairs_T3.BP_BuildStairs_T3_C
+[2018.12.02-21.59.40:765][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildStairs_T3_Pict.BP_BuildStairs_T3_Pict_C
+[2018.12.02-21.59.40:774][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWall.BP_BuildWall_C
+[2018.12.02-21.59.40:775][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallWindow.BP_BuildWallWindow_C
+[2018.12.02-21.59.40:776][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTrapdoor.BP_BuildTrapdoor_C
+[2018.12.02-21.59.40:776][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTrapdoor_T3.BP_BuildTrapdoor_T3_C
+[2018.12.02-21.59.40:777][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTrapdoor_T3_Pict.BP_BuildTrapdoor_T3_Pict_C
+[2018.12.02-21.59.40:783][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangle.BP_BuildTriangle_C
+[2018.12.02-21.59.40:784][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangle_T3.BP_BuildTriangle_T3_C
+[2018.12.02-21.59.40:784][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTriangle_T3_Pict.BP_BuildTriangle_T3_Pict_C
+[2018.12.02-21.59.40:790][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildTriangleFoundation_T3.BP_BuildTriangleFoundation_T3_C
+[2018.12.02-21.59.40:791][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildTriangleFoundation_T3_Pict.BP_BuildTriangleFoundation_T3_Pict_C
+[2018.12.02-21.59.40:796][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWall_T3.BP_BuildWall_T3_C
+[2018.12.02-21.59.40:797][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWall_T3_Pict.BP_BuildWall_T3_Pict_C
+[2018.12.02-21.59.40:803][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallCap.BP_BuildWallCap_C
+[2018.12.02-21.59.40:804][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallCap_T3.BP_BuildWallCap_T3_C
+[2018.12.02-21.59.40:805][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallCap_T3_Pict.BP_BuildWallCap_T3_Pict_C
+[2018.12.02-21.59.40:810][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_Inverted.BP_BuildWallSloped_Inverted_C
+[2018.12.02-21.59.40:811][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_Inverted_T3.BP_BuildWallSloped_Inverted_T3_C
+[2018.12.02-21.59.40:812][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSloped_Inverted_T3_Pict.BP_BuildWallSloped_Inverted_T3_Pict_C
+[2018.12.02-21.59.40:818][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped.BP_BuildWallSloped_C
+[2018.12.02-21.59.40:818][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSloped_T3.BP_BuildWallSloped_T3_C
+[2018.12.02-21.59.40:819][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSloped_T3_Pict.BP_BuildWallSloped_T3_Pict_C
+[2018.12.02-21.59.40:825][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_Inverted.BP_BuildWallSlopedFlipped_Inverted_C
+[2018.12.02-21.59.40:825][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_Inverted_T3.BP_BuildWallSlopedFlipped_Inverted_T3_C
+[2018.12.02-21.59.40:826][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Pict.BP_BuildWallSlopedFlipped_Inverted_T3_Pict_C
+[2018.12.02-21.59.40:832][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped.BP_BuildWallSlopedFlipped_C
+[2018.12.02-21.59.40:833][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallSlopedFlipped_T3.BP_BuildWallSlopedFlipped_T3_C
+[2018.12.02-21.59.40:833][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallSlopedFlipped_T3_Pict.BP_BuildWallSlopedFlipped_T3_Pict_C
+[2018.12.02-21.59.40:839][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildWallWindow_T3.BP_BuildWallWindow_T3_C
+[2018.12.02-21.59.40:840][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_BuildWallWindow_T3_Pict.BP_BuildWallWindow_T3_Pict_C
+[2018.12.02-21.59.40:846][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_C] HasBuildingItem failed at: /Game/Systems/Building/BP_FenceFoundation_T3.BP_FenceFoundation_T3_C
+[2018.12.02-21.59.40:846][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_FenceFoundation_T3_Pict.BP_FenceFoundation_T3_Pict_C
+[2018.12.02-21.59.40:849][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor_T3.BP_PL_GateDoor_T3_C
+[2018.12.02-21.59.40:850][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_GateDoor_T3_Pict.BP_PL_GateDoor_T3_Pict_C
+[2018.12.02-21.59.40:856][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Hatch.BP_PL_Hatch_C
+[2018.12.02-21.59.40:857][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Hatch_T3.BP_PL_Hatch_T3_C
+[2018.12.02-21.59.40:857][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Pict_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_Hatch_T3_Pict.BP_PL_Hatch_T3_Pict_C
+[2018.12.02-21.59.40:859][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_HL_Door_T3_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_HL_Door_T3.BP_PL_HL_Door_T3_C
+[2018.12.02-21.59.40:860][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pict_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Pict/Blueprints/BP_PL_Pict_Door_T3.BP_PL_Pict_Door_T3_C
+[2018.12.02-21.59.40:951][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_DLC_Khitai.pak added to pak precacher.
+[2018.12.02-21.59.40:951][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildAwning_T3_Khitai.BP_BuildAwning_T3_Khitai_C
+[2018.12.02-21.59.40:954][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildAwningCorner_T3_Khitai.BP_BuildAwningCorner_T3_Khitai_C
+[2018.12.02-21.59.40:957][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildCeiling_T3_Khitai.BP_BuildCeiling_T3_Khitai_C
+[2018.12.02-21.59.40:962][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildCrenelatedWall_Khitai.BP_BuildCrenelatedWall_Khitai_C
+[2018.12.02-21.59.40:965][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildDoor_T3_Khitai.BP_BuildDoor_T3_Khitai_C
+[2018.12.02-21.59.40:968][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildDoorFrame_T3_Khitai.BP_BuildDoorFrame_T3_Khitai_C
+[2018.12.02-21.59.40:970][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildFence_T3_Khitai.BP_BuildFence_T3_Khitai_C
+[2018.12.02-21.59.40:974][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildFoundation_T3_Khitai.BP_BuildFoundation_T3_Khitai_C
+[2018.12.02-21.59.40:977][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildGateFrame_T3_Khitai.BP_BuildGateFrame_T3_Khitai_C
+[2018.12.02-21.59.40:981][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildPillar_T3_Khitai.BP_BuildPillar_T3_Khitai_C
+[2018.12.02-21.59.40:984][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRamp_90degree_HL_T3_Khitai.BP_BuildRamp_90degree_HL_T3_Khitai_C
+[2018.12.02-21.59.40:987][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRamp_T3_Khitai.BP_BuildRamp_T3_Khitai_C
+[2018.12.02-21.59.40:990][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Khitai.BP_BuildRoof_90degree_Inverted_T3_Khitai_C
+[2018.12.02-21.59.40:992][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_90degree_T3_Khitai.BP_BuildRoof_90degree_T3_Khitai_C
+[2018.12.02-21.59.40:994][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_T3_Khitai.BP_BuildRoof_Sloped_T3_Khitai_C
+[2018.12.02-21.59.40:997][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Khitai_C
+[2018.12.02-21.59.40:999][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Khitai.BP_BuildRoof_Sloped_Triangle_T3_Khitai_C
+[2018.12.02-21.59.41:001][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_end_T3_Khitai.BP_BuildRooftop_end_T3_Khitai_C
+[2018.12.02-21.59.41:004][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionL_T3_Khitai.BP_BuildRooftop_junctionL_T3_Khitai_C
+[2018.12.02-21.59.41:006][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionT_T3_Khitai.BP_BuildRooftop_junctionT_T3_Khitai_C
+[2018.12.02-21.59.41:009][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_junctionX_T3_Khitai.BP_BuildRooftop_junctionX_T3_Khitai_C
+[2018.12.02-21.59.41:012][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_pyramidtop_T3_Khitai.BP_BuildRooftop_pyramidtop_T3_Khitai_C
+[2018.12.02-21.59.41:015][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildRooftop_straight_T3_Khitai.BP_BuildRooftop_straight_T3_Khitai_C
+[2018.12.02-21.59.41:019][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_Corner_T3_Khitai.BP_BuildStairs_Corner_T3_Khitai_C
+[2018.12.02-21.59.41:022][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_T3_Clean_Khitai.BP_BuildStairs_T3_Clean_Khitai_C
+[2018.12.02-21.59.41:025][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildStairs_T3_Khitai.BP_BuildStairs_T3_Khitai_C
+[2018.12.02-21.59.41:027][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTrapdoor_T3_Khitai.BP_BuildTrapdoor_T3_Khitai_C
+[2018.12.02-21.59.41:030][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTriangle_T3_Khitai.BP_BuildTriangle_T3_Khitai_C
+[2018.12.02-21.59.41:033][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildTriangleFoundation_T3_Khitai.BP_BuildTriangleFoundation_T3_Khitai_C
+[2018.12.02-21.59.41:035][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWall_T3_Khitai.BP_BuildWall_T3_Khitai_C
+[2018.12.02-21.59.41:037][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallCap_T3_Khitai.BP_BuildWallCap_T3_Khitai_C
+[2018.12.02-21.59.41:040][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSloped_Inverted_T3_Khitai.BP_BuildWallSloped_Inverted_T3_Khitai_C
+[2018.12.02-21.59.41:042][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSloped_T3_Khitai.BP_BuildWallSloped_T3_Khitai_C
+[2018.12.02-21.59.41:044][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Khitai.BP_BuildWallSlopedFlipped_Inverted_T3_Khitai_C
+[2018.12.02-21.59.41:047][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallSlopedFlipped_T3_Khitai.BP_BuildWallSlopedFlipped_T3_Khitai_C
+[2018.12.02-21.59.41:049][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_BuildWallWindow_T3_Khitai.BP_BuildWallWindow_T3_Khitai_C
+[2018.12.02-21.59.41:051][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_FenceFoundation_T3_Khitai.BP_FenceFoundation_T3_Khitai_C
+[2018.12.02-21.59.41:054][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_BlackJar_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_BlackJar.BP_PL_BlackJar_C
+[2018.12.02-21.59.41:057][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Brazier_Khitai.BP_PL_Brazier_Khitai_C
+[2018.12.02-21.59.41:059][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Khitai2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Brazier_Khitai2.BP_PL_Brazier_Khitai2_C
+[2018.12.02-21.59.41:062][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Khitai_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Carpet_Khitai_1.BP_PL_Carpet_Khitai_1_C
+[2018.12.02-21.59.41:064][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Khitai_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Carpet_Khitai_2.BP_PL_Carpet_Khitai_2_C
+[2018.12.02-21.59.41:066][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_CatIdol_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_CatIdol.BP_PL_CatIdol_C
+[2018.12.02-21.59.41:069][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron1.BP_PL_Cauldron1_C
+[2018.12.02-21.59.41:071][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron2.BP_PL_Cauldron2_C
+[2018.12.02-21.59.41:073][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron3_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron3.BP_PL_Cauldron3_C
+[2018.12.02-21.59.41:076][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Cauldron4_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Cauldron4.BP_PL_Cauldron4_C
+[2018.12.02-21.59.41:078][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Chair_Khitai.BP_PL_Chair_Khitai_C
+[2018.12.02-21.59.41:080][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Khitai2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Chair_Khitai2.BP_PL_Chair_Khitai2_C
+[2018.12.02-21.59.41:082][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_DragonIdol_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_DragonIdol.BP_PL_DragonIdol_C
+[2018.12.02-21.59.41:086][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Instrument_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Instrument_Master.BP_PL_Instrument_Master_C
+[2018.12.02-21.59.41:086][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Drum_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Drum_Khitai.BP_PL_Drum_Khitai_C
+[2018.12.02-21.59.41:088][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Footrest_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Footrest.BP_PL_Footrest_C
+[2018.12.02-21.59.41:090][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_GateDoor_T3_Khitai.BP_PL_GateDoor_T3_Khitai_C
+[2018.12.02-21.59.41:091][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Hatch_T3_Khitai.BP_PL_Hatch_T3_Khitai_C
+[2018.12.02-21.59.41:092][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Khitai_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Khitai_Door_T3.BP_PL_Khitai_Door_T3_C
+[2018.12.02-21.59.41:094][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Khitai_FoldingScreen_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Khitai_FoldingScreen.BP_PL_Khitai_FoldingScreen_C
+[2018.12.02-21.59.41:097][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Lamp_Hanging_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Lamp_Hanging.BP_PL_Lamp_Hanging_C
+[2018.12.02-21.59.41:100][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pillow_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Pillow_Khitai.BP_PL_Pillow_Khitai_C
+[2018.12.02-21.59.41:103][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Statue.BP_PL_Statue_C
+[2018.12.02-21.59.41:106][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Khitai_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Table_Khitai_1.BP_PL_Table_Khitai_1_C
+[2018.12.02-21.59.41:108][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Khitai_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Table_Khitai_2.BP_PL_Table_Khitai_2_C
+[2018.12.02-21.59.41:110][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_RiceLamp_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_W_RiceLamp.BP_PL_W_RiceLamp_C
+[2018.12.02-21.59.41:113][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_Tapestry_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_W_Tapestry_Khitai.BP_PL_W_Tapestry_Khitai_C
+[2018.12.02-21.59.41:116][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_WorkStation_Artisan_Khitai_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_WorkStation_Artisan_Khitai.BP_PL_WorkStation_Artisan_Khitai_C
+[2018.12.02-21.59.41:119][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Zheng_C] HasBuildingItem failed at: /Game/DLC/DLC_Khitai/Blueprints/BP_PL_Zheng.BP_PL_Zheng_C
+[2018.12.02-21.59.41:150][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwning_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildAwning_T3_Aquilonia.BP_BuildAwning_T3_Aquilonia_C
+[2018.12.02-21.59.41:153][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildAwningCorner_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildAwningCorner_T3_Aquilonia.BP_BuildAwningCorner_T3_Aquilonia_C
+[2018.12.02-21.59.41:155][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCeiling_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildCeiling_T3_Aquilonia.BP_BuildCeiling_T3_Aquilonia_C
+[2018.12.02-21.59.41:157][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildCrenelatedWall_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildCrenelatedWall_Aquilonia.BP_BuildCrenelatedWall_Aquilonia_C
+[2018.12.02-21.59.41:161][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildDoor_T3_Aquilonia.BP_BuildDoor_T3_Aquilonia_C
+[2018.12.02-21.59.41:165][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildDoorFrame_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildDoorFrame_T3_Aquilonia.BP_BuildDoorFrame_T3_Aquilonia_C
+[2018.12.02-21.59.41:168][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFence_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildFence_T3_Aquilonia.BP_BuildFence_T3_Aquilonia_C
+[2018.12.02-21.59.41:170][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildFoundation_T3_Aquilonia.BP_BuildFoundation_T3_Aquilonia_C
+[2018.12.02-21.59.41:173][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildGateFrame_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildGateFrame_T3_Aquilonia.BP_BuildGateFrame_T3_Aquilonia_C
+[2018.12.02-21.59.41:176][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildPillar_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildPillar_T3_Aquilonia.BP_BuildPillar_T3_Aquilonia_C
+[2018.12.02-21.59.41:177][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_90degree_HL_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRamp_90degree_HL_T3_Aquilonia.BP_BuildRamp_90degree_HL_T3_Aquilonia_C
+[2018.12.02-21.59.41:179][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRamp_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRamp_T3_Aquilonia.BP_BuildRamp_T3_Aquilonia_C
+[2018.12.02-21.59.41:181][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_90degree_Inverted_T3_Aquilonia.BP_BuildRoof_90degree_Inverted_T3_Aquilonia_C
+[2018.12.02-21.59.41:184][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_90degree_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_90degree_T3_Aquilonia.BP_BuildRoof_90degree_T3_Aquilonia_C
+[2018.12.02-21.59.41:186][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_T3_Aquilonia.BP_BuildRoof_Sloped_T3_Aquilonia_C
+[2018.12.02-21.59.41:188][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia.BP_BuildRoof_Sloped_Triangle_Flipped_T3_Aquilonia_C
+[2018.12.02-21.59.41:190][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRoof_Sloped_Triangle_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRoof_Sloped_Triangle_T3_Aquilonia.BP_BuildRoof_Sloped_Triangle_T3_Aquilonia_C
+[2018.12.02-21.59.41:192][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_end_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_end_T3_Aquilonia.BP_BuildRooftop_end_T3_Aquilonia_C
+[2018.12.02-21.59.41:195][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionL_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionL_T3_Aquilonia.BP_BuildRooftop_junctionL_T3_Aquilonia_C
+[2018.12.02-21.59.41:197][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionT_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionT_T3_Aquilonia.BP_BuildRooftop_junctionT_T3_Aquilonia_C
+[2018.12.02-21.59.41:200][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_junctionX_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_junctionX_T3_Aquilonia.BP_BuildRooftop_junctionX_T3_Aquilonia_C
+[2018.12.02-21.59.41:202][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_pyramidtop_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_pyramidtop_T3_Aquilonia.BP_BuildRooftop_pyramidtop_T3_Aquilonia_C
+[2018.12.02-21.59.41:204][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildRooftop_straight_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildRooftop_straight_T3_Aquilonia.BP_BuildRooftop_straight_T3_Aquilonia_C
+[2018.12.02-21.59.41:207][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_Corner_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_Corner_T3_Aquilonia.BP_BuildStairs_Corner_T3_Aquilonia_C
+[2018.12.02-21.59.41:209][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_T3_Aquilonia.BP_BuildStairs_T3_Aquilonia_C
+[2018.12.02-21.59.41:210][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildStairs_T3_Clean_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildStairs_T3_Clean_Aquilonia.BP_BuildStairs_T3_Clean_Aquilonia_C
+[2018.12.02-21.59.41:213][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTrapdoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTrapdoor_T3_Aquilonia.BP_BuildTrapdoor_T3_Aquilonia_C
+[2018.12.02-21.59.41:215][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangle_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTriangle_T3_Aquilonia.BP_BuildTriangle_T3_Aquilonia_C
+[2018.12.02-21.59.41:218][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildTriangleFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildTriangleFoundation_T3_Aquilonia.BP_BuildTriangleFoundation_T3_Aquilonia_C
+[2018.12.02-21.59.41:220][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWall_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWall_T3_Aquilonia.BP_BuildWall_T3_Aquilonia_C
+[2018.12.02-21.59.41:222][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallCap_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallCap_T3_Aquilonia.BP_BuildWallCap_T3_Aquilonia_C
+[2018.12.02-21.59.41:224][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSloped_Inverted_T3_Aquilonia.BP_BuildWallSloped_Inverted_T3_Aquilonia_C
+[2018.12.02-21.59.41:227][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSloped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSloped_T3_Aquilonia.BP_BuildWallSloped_T3_Aquilonia_C
+[2018.12.02-21.59.41:229][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia.BP_BuildWallSlopedFlipped_Inverted_T3_Aquilonia_C
+[2018.12.02-21.59.41:232][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallSlopedFlipped_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallSlopedFlipped_T3_Aquilonia.BP_BuildWallSlopedFlipped_T3_Aquilonia_C
+[2018.12.02-21.59.41:234][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildWallWindow_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_BuildWallWindow_T3_Aquilonia.BP_BuildWallWindow_T3_Aquilonia_C
+[2018.12.02-21.59.41:237][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_FenceFoundation_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_FenceFoundation_T3_Aquilonia.BP_FenceFoundation_T3_Aquilonia_C
+[2018.12.02-21.59.41:238][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Aquilonia_Door_T3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Aquilonia_Door_T3.BP_PL_Aquilonia_Door_T3_C
+[2018.12.02-21.59.41:241][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Aquilonian_FoldingScreen_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Aquilonian_FoldingScreen.BP_PL_Aquilonian_FoldingScreen_C
+[2018.12.02-21.59.41:245][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_PrimaryRespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_PrimaryRespawnPoint.BP_PL_PrimaryRespawnPoint_C
+[2018.12.02-21.59.41:245][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Bed_Common_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Bed_Common.BP_PL_Bed_Common_C
+[2018.12.02-21.59.41:245][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Bed_Aquilonian_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Bed_Aquilonian.BP_PL_Bed_Aquilonian_C
+[2018.12.02-21.59.41:248][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_BedsideTable_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_BedsideTable_Aquilonia.BP_PL_BedsideTable_Aquilonia_C
+[2018.12.02-21.59.41:251][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_Aquilonia.BP_PL_Brazier_Aquilonia_C
+[2018.12.02-21.59.41:253][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_Aquilonia2.BP_PL_Brazier_Aquilonia2_C
+[2018.12.02-21.59.41:256][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Brazier_ceilingchain_aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Brazier_ceilingchain_aquilonia.BP_PL_Brazier_ceilingchain_aquilonia_C
+[2018.12.02-21.59.41:258][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Carpet_Aquilonia_1_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Carpet_Aquilonia_1.BP_PL_Carpet_Aquilonia_1_C
+[2018.12.02-21.59.41:260][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia.BP_PL_Chair_Aquilonia_C
+[2018.12.02-21.59.41:262][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia_2.BP_PL_Chair_Aquilonia_2_C
+[2018.12.02-21.59.41:265][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Aquilonia_3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Chair_Aquilonia_3.BP_PL_Chair_Aquilonia_3_C
+[2018.12.02-21.59.41:267][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Couch_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Couch_Aquilonia.BP_PL_Couch_Aquilonia_C
+[2018.12.02-21.59.41:269][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Desk_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Desk_Aquilonia.BP_PL_Desk_Aquilonia_C
+[2018.12.02-21.59.41:273][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Flag_Standing_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Flag_Standing_Aquilonia.BP_PL_Flag_Standing_Aquilonia_C
+[2018.12.02-21.59.41:276][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Flag_Standing_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Flag_Standing_Aquilonia2.BP_PL_Flag_Standing_Aquilonia2_C
+[2018.12.02-21.59.41:278][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_GateDoor_T3_Aquilonia.BP_PL_GateDoor_T3_Aquilonia_C
+[2018.12.02-21.59.41:281][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Harp_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Harp_Aquilonia.BP_PL_Harp_Aquilonia_C
+[2018.12.02-21.59.41:283][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Hatch_T3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Hatch_T3_Aquilonia.BP_PL_Hatch_T3_Aquilonia_C
+[2018.12.02-21.59.41:285][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery1_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery1_Aquilonia.BP_PL_Pottery1_Aquilonia_C
+[2018.12.02-21.59.41:287][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery2_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery2_Aquilonia.BP_PL_Pottery2_Aquilonia_C
+[2018.12.02-21.59.41:289][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Pottery3_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Pottery3_Aquilonia.BP_PL_Pottery3_Aquilonia_C
+[2018.12.02-21.59.41:292][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia1_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia1.BP_PL_Statue_Aquilonia1_C
+[2018.12.02-21.59.41:294][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia2_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia2.BP_PL_Statue_Aquilonia2_C
+[2018.12.02-21.59.41:296][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia3_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia3.BP_PL_Statue_Aquilonia3_C
+[2018.12.02-21.59.41:299][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Statue_Aquilonia4_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Statue_Aquilonia4.BP_PL_Statue_Aquilonia4_C
+[2018.12.02-21.59.41:301][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Table_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_Table_Aquilonia.BP_PL_Table_Aquilonia_C
+[2018.12.02-21.59.41:303][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_W_Torch_Gas_Wall_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_W_Torch_Gas_Wall_Aquilonia.BP_PL_W_Torch_Gas_Wall_Aquilonia_C
+[2018.12.02-21.59.41:306][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_WorkStation_Artisan_Aquilonia_C] HasBuildingItem failed at: /Game/DLC/DLC_Aquilonia/Blueprints/BP_PL_WorkStation_Artisan_Aquilonia.BP_PL_WorkStation_Artisan_Aquilonia_C
+[2018.12.02-21.59.41:310][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanSword_DLC.pak added to pak precacher.
+[2018.12.02-21.59.41:310][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/DLC_ConanArmor_DLC.pak added to pak precacher.
+[2018.12.02-21.59.41:310][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Khitai/BP_ModController_Khitai_DLC.BP_ModController_Khitai_DLC_C
+[2018.12.02-21.59.41:327][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_ItemTable.Khitai_DLC_ItemTable
+[2018.12.02-21.59.41:332][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_RecipeTable.Khitai_DLC_RecipeTable
+[2018.12.02-21.59.41:333][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_FeatTable.Khitai_DLC_FeatTable
+[2018.12.02-21.59.41:336][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Khitai/DLC_Khitai_EquipmentVariationTable.DLC_Khitai_EquipmentVariationTable
+[2018.12.02-21.59.41:336][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_Male_WarPaintSelections.Khitai_DLC_Male_WarPaintSelections
+[2018.12.02-21.59.41:337][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_Female_WarPaintSelections.Khitai_DLC_Female_WarPaintSelections
+[2018.12.02-21.59.41:337][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Khitai/Khitai_DLC_ItemNameToTemplateID.Khitai_DLC_ItemNameToTemplateID
+[2018.12.02-21.59.41:337][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ModController.DLC_Aquilonia_ModController_C
+[2018.12.02-21.59.41:338][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Crafting/CraftingStationNameTable.CraftingStationNameTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_CraftingStationTable.DLC_Aquilonia_CraftingStationTable
+[2018.12.02-21.59.41:340][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_EquipmentVariationTable.DLC_Aquilonia_EquipmentVariationTable
+[2018.12.02-21.59.41:340][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_FeatTable.DLC_Aquilonia_FeatTable
+[2018.12.02-21.59.41:341][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ItemNameToTemplateIDTable.DLC_Aquilonia_ItemNameToTemplateIDTable
+[2018.12.02-21.59.41:359][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_ItemTable.DLC_Aquilonia_ItemTable
+[2018.12.02-21.59.41:365][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_RecipesTable.DLC_Aquilonia_RecipesTable
+[2018.12.02-21.59.41:365][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/Aquilonia_DLC_Female_WarPaintSelections.Aquilonia_DLC_Female_WarPaintSelections
+[2018.12.02-21.59.41:365][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/Aquilonia_DLC_Male_WarPaintSelections.Aquilonia_DLC_Male_WarPaintSelections
+[2018.12.02-21.59.41:365][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/WarPaintColorSelections.WarPaintColorSelections vs ToBeAdded: /Game/DLC/DLC_Aquilonia/DLC_Aquilonia_WarPaintColorSelections.DLC_Aquilonia_WarPaintColorSelections
+[2018.12.02-21.59.41:366][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanSword_DLC/BP_ConanSword_DLC_ModController.BP_ConanSword_DLC_ModController_C
+[2018.12.02-21.59.41:366][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_ItemTable.ConanSword_DLC_ItemTable
+[2018.12.02-21.59.41:367][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanSword_DLC/ConanSword_DLC_RecipeTable.ConanSword_DLC_RecipeTable
+[2018.12.02-21.59.41:367][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/ConanArmor_DLC/BP_ConanArmor_DLC_ModController.BP_ConanArmor_DLC_ModController_C
+[2018.12.02-21.59.41:369][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_ItemTable.ConanArmor_DLC_ItemTable
+[2018.12.02-21.59.41:369][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/ConanArmor_DLC/ConanArmor_DLC_RecipeTable.ConanArmor_DLC_RecipeTable
+[2018.12.02-21.59.41:369][  0]LogModManager: AddActiveModControllerClass: /Game/DLC/DLC_Pict/DLC_Pict_Modcontroller.DLC_Pict_Modcontroller_C
+[2018.12.02-21.59.41:372][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/EquipmentVariationTable.EquipmentVariationTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_EquipmentVariationTable.DLC_Pict_EquipmentVariationTable
+[2018.12.02-21.59.41:372][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Female_WarPaintSelections.Female_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_Female_WarPaintSelections.DLC_Pict_Female_WarPaintSelections
+[2018.12.02-21.59.41:373][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/Male_WarPaintSelections.Male_WarPaintSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_Male_WarPaintSelections.DLC_Pict_Male_WarPaintSelections
+[2018.12.02-21.59.41:373][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/UI/CharacterCreation/DataTables/WarPaintColorSelections.WarPaintColorSelections vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_WarPaintColorSelections.DLC_Pict_WarPaintColorSelections
+[2018.12.02-21.59.41:374][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Feats/FeatTable.FeatTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_FeatTable.DLC_Pict_FeatTable
+[2018.12.02-21.59.41:390][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/ItemTable.ItemTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ItemTable.DLC_Pict_ItemTable
+[2018.12.02-21.59.41:390][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Survival/Gathering/Gathering_v2/ItemNameToTemplateID.ItemNameToTemplateID vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ItemNameToTemplateID.DLC_Pict_ItemNameToTemplateID
+[2018.12.02-21.59.41:395][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Items/Recipes/RecipesTable.RecipesTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_RecipesTable.DLC_Pict_RecipesTable
+[2018.12.02-21.59.41:395][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/SpawnTable/ProfessionTemplateDataTable.ProfessionTemplateDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ProfessionTable.DLC_Pict_ProfessionTable
+[2018.12.02-21.59.41:396][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/SpawnTable/SpawnDataTable.SpawnDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_SpawnDataTable.DLC_Pict_SpawnDataTable
+[2018.12.02-21.59.41:397][  0]LogModController:Verbose: AModController::MergeDataTables - Merged MergeInto: /Game/Systems/Thrall/ThrallDataTable.ThrallDataTable vs ToBeAdded: /Game/DLC/DLC_Pict/DLC_Pict_ThrallDataTable.DLC_Pict_ThrallDataTable
+[2018.12.02-21.59.41:397][  0]LogModManager: Done searching for mod controllers.
+[2018.12.02-21.59.41:397][  0]LogEngine: Initializing Engine...
+[2018.12.02-21.59.41:402][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMaterials/GizmoMaterial requested by async loading code. NameToLoad: /Engine/EditorMaterials/GizmoMaterial
+[2018.12.02-21.59.41:402][  0]LogStreaming:Error: Found 0 dependent packages...
+[2018.12.02-21.59.41:403][  0]LogEngine: ERROR: Failed to load special material '/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial'. This will probably have bad consequences (depending on its use)
+[2018.12.02-21.59.41:411][  0]LogInit: Texture streaming: Disabled
+[2018.12.02-21.59.41:425][  0]LogInit:Display: Game Engine Initialized.
+[2018.12.02-21.59.41:426][  0]LogInit:Display: Starting Game.
+[2018.12.02-21.59.41:426][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2018.12.02-21.59.41:426][  0]UnitTest:Display: ClientState: 0
+[2018.12.02-21.59.41:437][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2018.12.02-21.59.43:277][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/WeatherEffects.pak added to pak precacher.
+[2018.12.02-21.59.43:277][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/RedDesertPack.pak added to pak precacher.
+[2018.12.02-21.59.43:278][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/NaturePackage.pak added to pak precacher.
+[2018.12.02-21.59.43:278][  0]LogStreaming:Error: Couldn't find file for package /Engine/EditorMeshes/MatineeCam_SM requested by async loading code. NameToLoad: /Engine/EditorMeshes/MatineeCam_SM
+[2018.12.02-21.59.43:279][  0]LogStreaming:Error: Found 1 dependent packages...
+[2018.12.02-21.59.43:279][  0]LogStreaming:Error:   /Game/Maps/ConanSandbox/ConanSandbox
+[2018.12.02-21.59.43:280][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/ProceduralNaturePack.pak added to pak precacher.
+[2018.12.02-21.59.43:280][  0]LogPakFile: New pak file ../../../ConanSandbox/Content/Paks/OceanFloor.pak added to pak precacher.
+[2018.12.02-21.59.43:280][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_BuildingBase_C] HasBuildingItem failed at: /Game/Systems/Building/BP_BuildingBase.BP_BuildingBase_C
+[2018.12.02-21.59.43:287][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_Master_Placeables_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_Master_Placeables.BP_Master_Placeables_C
+[2018.12.02-21.59.43:288][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Door_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Door.BP_PL_Door_C
+[2018.12.02-21.59.43:289][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_GateDoor_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_GateDoor.BP_PL_GateDoor_C
+[2018.12.02-21.59.43:303][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_RespawnPoint_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_RespawnPoint.BP_PL_RespawnPoint_C
+[2018.12.02-21.59.43:304][  0]Building:Warning: Data: ABuildableBase::LoadCDOItemData [Default__BP_PL_Chair_Master_C] HasBuildingItem failed at: /Game/Systems/Building/Placeables/BP_PL_Chair_Master.BP_PL_Chair_Master_C
+[2018.12.02-21.59.43:388][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2018.12.02-21.59.43:388][  0]LogLoad: Game class is 'BaseGameMode_C'
+[2018.12.02-21.59.43:388][  0]SpawnTable:Display: USpawnTableComponent Generating Static Data
+[2018.12.02-21.59.48:409][  0]LogOnline:Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2018.12.02-21.59.48:410][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.12.02-21.59.48:410][  0]LogOnline:Warning: STEAM: Steam API failed to initialize!
+[2018.12.02-21.59.48:410][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.12.02-21.59.48:411][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.02-21.59.48:412][  0]LogNet:Warning: Failed to init net driver ListenURL: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player: WinSock: binding to port 7777 failed (21)
+[2018.12.02-21.59.48:413][  0]LogNet: NetworkFailure: NetDriverListenFailure, Error: 'ListenFailure'
+[2018.12.02-21.59.48:413][  0]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2018.12.02-21.59.48:414][  0]LogWorld: Failed to listen: WinSock: binding to port 7777 failed (21)
+[2018.12.02-21.59.48:414][  0]LogNet:Error: LoadMap: failed to Listen(/Game/Maps/ConanSandbox/ConanSandbox?Name=Player)
+[2018.12.02-21.59.48:427][  0]LogLevelActorContainer: Created LevelActorCluster (0) for /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox:PersistentLevel with 262 objects, 0 referenced clusters and 12 mutable objects.
+[2018.12.02-21.59.48:427][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 0) at 2018.12.02-15.59.48
+[2018.12.02-21.59.48:428][  0]LogMemory:Display: Entered application state 'InitGame'.
+[2018.12.02-21.59.48:428][  0]LogOnline:Warning: OSS: AutoLogin missing AUTH_LOGIN=<login id>.
+[2018.12.02-21.59.48:428][  0]GlobalServerChannel:Display: Loading ServerSettings File: ../../../ConanSandbox/Saved/Config/WindowsServer/ServerSettings.ini
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:444][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:445][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:445][  0]ConanSandbox:Display: Creating database backup for new game build 112258
+[2018.12.02-21.59.48:448][  0]Dreamworld:Display: database disk image is malformed
+[2018.12.02-21.59.48:448][  0]Dreamworld:Display: Corruption detected, default handler triggered
+[2018.12.02-21.59.48:448][  0]ConanSandbox:Warning: Corruption detected in game database. Restoring previous backup.
+[2018.12.02-21.59.48:450][  0]Dreamworld:Display: RestoreBackup: Failed to delete old backup file, renaming it instead: I:\SteamLibrary\steamapps\common\Conan Exiles Dedicated Server\ConanSandbox\Saved\game_CORRUPT_delete_me_1473795059.db
+[2018.12.02-21.59.48:450][  0]Dreamworld:Display: RestoreBackup: Could not rename the file, please manually delete the corrupt game.db file at: I:\SteamLibrary\steamapps\common\Conan Exiles Dedicated Server\ConanSandbox\Saved\game.db.
+[2018.12.02-21.59.48:457][  0]LogWindows: Windows GetLastError: The operation completed successfully. (0)
